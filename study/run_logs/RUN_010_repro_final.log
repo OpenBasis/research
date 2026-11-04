@@ -1,0 +1,6 @@
+PASS: pipeline censuses equal data/COVERAGE.json
+ETH: observed=29445 sum=0.4746588125 annualized=0.1412128102394294447274579725
+BTC: observed=29445 sum=0.4791731877 annualized=0.1425558541094243504839531330
+OK: outputs written to /private/tmp/study0_final_check/reports
+f425e2e73b9069f2c8c6101376df02295d44db631cb208f7c0d94f57c6859788  reports/results_study0.json
+f425e2e73b9069f2c8c6101376df02295d44db631cb208f7c0d94f57c6859788  /private/tmp/study0_final_check/reports/results_study0.json

@@ -1,0 +1,36 @@
+ABORT: conflicting duplicate funding record FIX at settlement hour 2023-06-23T01:00Z
+PASS q7 median [1,2,3,4] = 2.5
+PASS q7 p25 [1,2,3,4] = 1.75
+PASS q7 p0 = min
+PASS q7 p100 = max
+PASS q7 single element
+PASS q7 p95 [0..19] = 18.05
+PASS D3: settlement t maps to bucket floor_hour(t)-1h
+PASS D3: pre-window payment excluded, boundary settlement included
+PASS jitter census
+PASS identical duplicate deduplicated and counted
+PASS conflicting duplicate aborts
+PASS run A: one completed run, duration 2
+PASS run B: window-start run censored
+PASS run C: gap-adjacent run censored
+PASS run D: zero breaks a run; two completed runs of duration 1
+PASS run E: window-end run censored
+PASS A2: applies from first boundary strictly after ts; scope0 derived
+PASS A2: snapshot covers exactly 24 buckets to the next snapshot
+PASS A2: missing snapshot day stays a gap (24-bucket cap, no indefinite carry)
+PASS A2: snapshot exactly on an hour boundary applies strictly after it
+PASS month: fully observed month is COMPLETE with total
+PASS month: June 2023 window-partial by construction
+PASS month: unobserved month INCOMPLETE (missing-data), subtotal 0
+PASS month: one missing hour makes it INCOMPLETE; no total shown
+PASS month iterator spans 2023-06..2026-10 (41 months)
+PASS spot k=1: returns dropped only where an endpoint is missing
+PASS spot k=24: any missing close inside the span invalidates the return
+PASS spot: known return value 0.10 with end-bucket timestamp
+PASS funding stats: exact decimal sum
+PASS funding stats: arithmetic annualization 8760*S/n
+PASS funding stats: three-way sign shares with exact zero
+PASS funding stats: exact min/max strings
+PASS cost: base 29 bps; 352.83 / 117.61 / 29.00
+PASS cost: doubled 58 bps; 705.67 / 235.22 / 58.00
+fixtures: 34 passed, 0 failed

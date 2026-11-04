@@ -1,0 +1,682 @@
+{
+  "cost": {
+    "base_annualized_bps": {
+      "30": "352.8333333333333333333333333",
+      "365": "29",
+      "90": "117.6111111111111111111111111"
+    },
+    "base_roundtrip_bps": "29.0"
+  },
+  "funding": {
+    "BTC": {
+      "annualized": "0.1425558541094243504839531330",
+      "complete_month_count": 37,
+      "expected": 29448,
+      "first_complete_month": "2023-09",
+      "last_complete_month": "2026-10",
+      "max": "0.0005980828",
+      "mean": "0.00001627349932755985736118186449",
+      "median": "0.00001250",
+      "min": "-0.0001655753",
+      "missing": [
+        "2023-07-02T19:00Z",
+        "2023-08-23T19:00Z",
+        "2024-08-15T12:00Z"
+      ],
+      "missing_settlement_neighbors": {
+        "2023-07-02T19:00Z": [
+          true,
+          false,
+          true
+        ],
+        "2023-08-23T19:00Z": [
+          true,
+          false,
+          true
+        ],
+        "2024-08-15T12:00Z": [
+          true,
+          false,
+          true
+        ]
+      },
+      "monthly": {
+        "2023-06": {
+          "observed": 192,
+          "status": "INCOMPLETE",
+          "subtotal": "0.0054042524"
+        },
+        "2023-07": {
+          "observed": 743,
+          "status": "INCOMPLETE",
+          "subtotal": "0.0168450756"
+        },
+        "2023-08": {
+          "observed": 743,
+          "status": "INCOMPLETE",
+          "subtotal": "-0.0070683837"
+        },
+        "2023-09": {
+          "observed": 720,
+          "status": "COMPLETE",
+          "subtotal": "-0.0002090749"
+        },
+        "2023-10": {
+          "observed": 744,
+          "status": "COMPLETE",
+          "subtotal": "0.0156145401"
+        },
+        "2023-11": {
+          "observed": 720,
+          "status": "COMPLETE",
+          "subtotal": "0.0209421750"
+        },
+        "2023-12": {
+          "observed": 744,
+          "status": "COMPLETE",
+          "subtotal": "0.0340287740"
+        },
+        "2024-01": {
+          "observed": 744,
+          "status": "COMPLETE",
+          "subtotal": "0.0242094066"
+        },
+        "2024-02": {
+          "observed": 696,
+          "status": "COMPLETE",
+          "subtotal": "0.0240001934"
+        },
+        "2024-03": {
+          "observed": 744,
+          "status": "COMPLETE",
+          "subtotal": "0.0568320005"
+        },
+        "2024-04": {
+          "observed": 720,
+          "status": "COMPLETE",
+          "subtotal": "0.0153441114"
+        },
+        "2024-05": {
+          "observed": 744,
+          "status": "COMPLETE",
+          "subtotal": "0.0136321019"
+        },
+        "2024-06": {
+          "observed": 720,
+          "status": "COMPLETE",
+          "subtotal": "0.0161737895"
+        },
+        "2024-07": {
+          "observed": 744,
+          "status": "COMPLETE",
+          "subtotal": "0.0104844380"
+        },
+        "2024-08": {
+          "observed": 743,
+          "status": "INCOMPLETE",
+          "subtotal": "0.0098974267"
+        },
+        "2024-09": {
+          "observed": 720,
+          "status": "COMPLETE",
+          "subtotal": "0.0106519188"
+        },
+        "2024-10": {
+          "observed": 744,
+          "status": "COMPLETE",
+          "subtotal": "0.0102494641"
+        },
+        "2024-11": {
+          "observed": 720,
+          "status": "COMPLETE",
+          "subtotal": "0.0267635609"
+        },
+        "2024-12": {
+          "observed": 744,
+          "status": "COMPLETE",
+          "subtotal": "0.0237426894"
+        },
+        "2025-01": {
+          "observed": 744,
+          "status": "COMPLETE",
+          "subtotal": "0.0141093827"
+        },
+        "2025-02": {
+          "observed": 672,
+          "status": "COMPLETE",
+          "subtotal": "0.0082979360"
+        },
+        "2025-03": {
+          "observed": 744,
+          "status": "COMPLETE",
+          "subtotal": "0.0027004713"
+        },
+        "2025-04": {
+          "observed": 720,
+          "status": "COMPLETE",
+          "subtotal": "0.0043409704"
+        },
+        "2025-05": {
+          "observed": 744,
+          "status": "COMPLETE",
+          "subtotal": "0.0137670834"
+        },
+        "2025-06": {
+          "observed": 720,
+          "status": "COMPLETE",
+          "subtotal": "0.0069689277"
+        },
+        "2025-07": {
+          "observed": 744,
+          "status": "COMPLETE",
+          "subtotal": "0.0165090830"
+        },
+        "2025-08": {
+          "observed": 744,
+          "status": "COMPLETE",
+          "subtotal": "0.0096518399"
+        },
+        "2025-09": {
+          "observed": 720,
+          "status": "COMPLETE",
+          "subtotal": "0.0082894330"
+        },
+        "2025-10": {
+          "observed": 744,
+          "status": "COMPLETE",
+          "subtotal": "0.0090471208"
+        },
+        "2025-11": {
+          "observed": 720,
+          "status": "COMPLETE",
+          "subtotal": "0.0073616525"
+        },
+        "2025-12": {
+          "observed": 744,
+          "status": "COMPLETE",
+          "subtotal": "0.0052984444"
+        },
+        "2026-01": {
+          "observed": 744,
+          "status": "COMPLETE",
+          "subtotal": "0.0061956394"
+        },
+        "2026-02": {
+          "observed": 672,
+          "status": "COMPLETE",
+          "subtotal": "0.0017660650"
+        },
+        "2026-03": {
+          "observed": 744,
+          "status": "COMPLETE",
+          "subtotal": "0.0007557870"
+        },
+        "2026-04": {
+          "observed": 720,
+          "status": "COMPLETE",
+          "subtotal": "-0.0006996664"
+        },
+        "2026-05": {
+          "observed": 744,
+          "status": "COMPLETE",
+          "subtotal": "0.0026405220"
+        },
+        "2026-06": {
+          "observed": 720,
+          "status": "COMPLETE",
+          "subtotal": "0.0048252176"
+        },
+        "2026-07": {
+          "observed": 744,
+          "status": "COMPLETE",
+          "subtotal": "0.0080402548"
+        },
+        "2026-08": {
+          "observed": 744,
+          "status": "COMPLETE",
+          "subtotal": "0.0070810387"
+        },
+        "2026-09": {
+          "observed": 720,
+          "status": "COMPLETE",
+          "subtotal": "0.0072194384"
+        },
+        "2026-10": {
+          "observed": 744,
+          "status": "COMPLETE",
+          "subtotal": "0.0074680864"
+        }
+      },
+      "observed": 29445,
+      "p5": "-0.000010256559999999997876551",
+      "p95": "0.00006475569999999999054120",
+      "runs": {
+        "censored": [
+          {
+            "end": "2023-06-23T02:00Z",
+            "hours": 3,
+            "start": "2023-06-23T00:00Z",
+            "sum": "-0.0000072385"
+          },
+          {
+            "end": "2023-08-23T18:00Z",
+            "hours": 24,
+            "start": "2023-08-22T19:00Z",
+            "sum": "-0.0003635304"
+          }
+        ],
+        "completed": 848,
+        "max_h": 118,
+        "median_h": "2.0",
+        "median_sum": "-0.00000887675",
+        "p95_h": "16.649999999999977",
+        "worst_sum": "-0.0027990672"
+      },
+      "sign_counts": {
+        "negative": 3662,
+        "positive": 25783
+      },
+      "source_boundary_settlements": {
+        "2023-09": 720,
+        "2026-10": 744
+      },
+      "sum": "0.4791731877"
+    },
+    "ETH": {
+      "annualized": "0.1412128102394294447274579725",
+      "complete_month_count": 37,
+      "expected": 29448,
+      "first_complete_month": "2023-09",
+      "last_complete_month": "2026-10",
+      "max": "0.000505833",
+      "mean": "0.00001612018381728646629308880965",
+      "median": "0.00001250",
+      "min": "-0.0003855844",
+      "missing": [
+        "2023-07-02T19:00Z",
+        "2023-08-23T19:00Z",
+        "2024-08-15T12:00Z"
+      ],
+      "missing_settlement_neighbors": {
+        "2023-07-02T19:00Z": [
+          true,
+          false,
+          true
+        ],
+        "2023-08-23T19:00Z": [
+          true,
+          false,
+          true
+        ],
+        "2024-08-15T12:00Z": [
+          true,
+          false,
+          true
+        ]
+      },
+      "monthly": {
+        "2023-06": {
+          "observed": 192,
+          "status": "INCOMPLETE",
+          "subtotal": "0.0104810226"
+        },
+        "2023-07": {
+          "observed": 743,
+          "status": "INCOMPLETE",
+          "subtotal": "0.0151516433"
+        },
+        "2023-08": {
+          "observed": 743,
+          "status": "INCOMPLETE",
+          "subtotal": "-0.0001247109"
+        },
+        "2023-09": {
+          "observed": 720,
+          "status": "COMPLETE",
+          "subtotal": "0.0063953292"
+        },
+        "2023-10": {
+          "observed": 744,
+          "status": "COMPLETE",
+          "subtotal": "0.0108010313"
+        },
+        "2023-11": {
+          "observed": 720,
+          "status": "COMPLETE",
+          "subtotal": "0.0330653656"
+        },
+        "2023-12": {
+          "observed": 744,
+          "status": "COMPLETE",
+          "subtotal": "0.0436127039"
+        },
+        "2024-01": {
+          "observed": 744,
+          "status": "COMPLETE",
+          "subtotal": "0.0212463174"
+        },
+        "2024-02": {
+          "observed": 696,
+          "status": "COMPLETE",
+          "subtotal": "0.0229282300"
+        },
+        "2024-03": {
+          "observed": 744,
+          "status": "COMPLETE",
+          "subtotal": "0.0441122682"
+        },
+        "2024-04": {
+          "observed": 720,
+          "status": "COMPLETE",
+          "subtotal": "0.0121488297"
+        },
+        "2024-05": {
+          "observed": 744,
+          "status": "COMPLETE",
+          "subtotal": "0.0159565624"
+        },
+        "2024-06": {
+          "observed": 720,
+          "status": "COMPLETE",
+          "subtotal": "0.0183740203"
+        },
+        "2024-07": {
+          "observed": 744,
+          "status": "COMPLETE",
+          "subtotal": "0.0122421209"
+        },
+        "2024-08": {
+          "observed": 743,
+          "status": "INCOMPLETE",
+          "subtotal": "0.0037451753"
+        },
+        "2024-09": {
+          "observed": 720,
+          "status": "COMPLETE",
+          "subtotal": "0.0064813098"
+        },
+        "2024-10": {
+          "observed": 744,
+          "status": "COMPLETE",
+          "subtotal": "0.0070684728"
+        },
+        "2024-11": {
+          "observed": 720,
+          "status": "COMPLETE",
+          "subtotal": "0.0315393803"
+        },
+        "2024-12": {
+          "observed": 744,
+          "status": "COMPLETE",
+          "subtotal": "0.0251804091"
+        },
+        "2025-01": {
+          "observed": 744,
+          "status": "COMPLETE",
+          "subtotal": "0.0100406283"
+        },
+        "2025-02": {
+          "observed": 672,
+          "status": "COMPLETE",
+          "subtotal": "0.0047232218"
+        },
+        "2025-03": {
+          "observed": 744,
+          "status": "COMPLETE",
+          "subtotal": "0.0015564995"
+        },
+        "2025-04": {
+          "observed": 720,
+          "status": "COMPLETE",
+          "subtotal": "-0.0024099552"
+        },
+        "2025-05": {
+          "observed": 744,
+          "status": "COMPLETE",
+          "subtotal": "0.0103374453"
+        },
+        "2025-06": {
+          "observed": 720,
+          "status": "COMPLETE",
+          "subtotal": "0.0060124925"
+        },
+        "2025-07": {
+          "observed": 744,
+          "status": "COMPLETE",
+          "subtotal": "0.0184895473"
+        },
+        "2025-08": {
+          "observed": 744,
+          "status": "COMPLETE",
+          "subtotal": "0.0097771860"
+        },
+        "2025-09": {
+          "observed": 720,
+          "status": "COMPLETE",
+          "subtotal": "0.0064768075"
+        },
+        "2025-10": {
+          "observed": 744,
+          "status": "COMPLETE",
+          "subtotal": "0.0061488286"
+        },
+        "2025-11": {
+          "observed": 720,
+          "status": "COMPLETE",
+          "subtotal": "0.0066272169"
+        },
+        "2025-12": {
+          "observed": 744,
+          "status": "COMPLETE",
+          "subtotal": "0.0075673888"
+        },
+        "2026-01": {
+          "observed": 744,
+          "status": "COMPLETE",
+          "subtotal": "0.0064724644"
+        },
+        "2026-02": {
+          "observed": 672,
+          "status": "COMPLETE",
+          "subtotal": "0.0017065978"
+        },
+        "2026-03": {
+          "observed": 744,
+          "status": "COMPLETE",
+          "subtotal": "0.0021773638"
+        },
+        "2026-04": {
+          "observed": 720,
+          "status": "COMPLETE",
+          "subtotal": "-0.0003228968"
+        },
+        "2026-05": {
+          "observed": 744,
+          "status": "COMPLETE",
+          "subtotal": "0.0064651551"
+        },
+        "2026-06": {
+          "observed": 720,
+          "status": "COMPLETE",
+          "subtotal": "0.0027317488"
+        },
+        "2026-07": {
+          "observed": 744,
+          "status": "COMPLETE",
+          "subtotal": "0.0081846715"
+        },
+        "2026-08": {
+          "observed": 744,
+          "status": "COMPLETE",
+          "subtotal": "0.0073298100"
+        },
+        "2026-09": {
+          "observed": 720,
+          "status": "COMPLETE",
+          "subtotal": "0.0083763636"
+        },
+        "2026-10": {
+          "observed": 744,
+          "status": "COMPLETE",
+          "subtotal": "0.0057847458"
+        }
+      },
+      "observed": 29445,
+      "p5": "-0.000011086359999999999195181",
+      "p95": "0.00006715233999999999687132",
+      "runs": {
+        "censored": [
+          {
+            "end": "2024-08-15T11:00Z",
+            "hours": 5,
+            "start": "2024-08-15T07:00Z",
+            "sum": "-0.0002084525"
+          }
+        ],
+        "completed": 1018,
+        "max_h": 92,
+        "median_h": "2.0",
+        "median_sum": "-0.00001058395",
+        "p95_h": "13.0",
+        "worst_sum": "-0.0034279723"
+      },
+      "sign_counts": {
+        "negative": 3965,
+        "positive": 25480
+      },
+      "source_boundary_settlements": {
+        "2023-09": 720,
+        "2026-10": 744
+      },
+      "sum": "0.4746588125"
+    }
+  },
+  "funding_reserve_common_coverage": {
+    "native": {
+      "2025": 8755,
+      "2026_jan_oct": 7293,
+      "full_window": 29229
+    },
+    "usdc_e": {
+      "2025": 8755,
+      "2026_jan_oct": 6351,
+      "full_window": 28301
+    }
+  },
+  "manifest": {
+    "bad": [],
+    "listed": 349
+  },
+  "reserve": {
+    "native": {
+      "annualized": "0.04870986123426382047071700493",
+      "complete_months": 32,
+      "expected": 29304,
+      "first_complete": "2023-07",
+      "last_complete": "2026-09",
+      "observed": 29232,
+      "source_boundary_snapshot_counts": {
+        "2023-07": 31,
+        "2026-09": 30
+      },
+      "sum": "0.1625441396803652968036529096"
+    },
+    "usdc_e": {
+      "annualized": "0.04535392285542679479932164722",
+      "complete_months": 27,
+      "expected": 29448,
+      "first_complete": "2023-08",
+      "last_complete": "2026-08",
+      "observed": 28304,
+      "source_boundary_snapshot_counts": {
+        "2023-08": 31,
+        "2026-08": 31
+      },
+      "sum": "0.1465408027968036529680365186"
+    }
+  },
+  "spot": {
+    "BTC-USD": {
+      "1": {
+        "n": 29435,
+        "p1": -0.01472647409453114,
+        "p99": 0.014290252606334139,
+        "worst_down": [
+          -0.049004552286235216,
+          "2025-03-07T00:00Z"
+        ],
+        "worst_up": [
+          0.057258529165482325,
+          "2023-08-29T14:00Z"
+        ]
+      },
+      "24": {
+        "n": 29366,
+        "p1": -0.061431641697457906,
+        "p99": 0.06860529957523721,
+        "worst_down": [
+          -0.18402741198769842,
+          "2024-08-05T12:00Z"
+        ],
+        "worst_up": [
+          0.13676134392602232,
+          "2023-10-24T02:00Z"
+        ]
+      },
+      "missing": [
+        "2025-10-25T16:00Z",
+        "2025-10-25T17:00Z",
+        "2025-10-25T18:00Z",
+        "2025-10-25T19:00Z",
+        "2025-10-25T20:00Z",
+        "2026-05-08T02:00Z",
+        "2026-05-08T03:00Z",
+        "2026-05-08T04:00Z",
+        "2026-05-08T05:00Z",
+        "2026-05-08T06:00Z"
+      ],
+      "observed": 29438
+    },
+    "ETH-USD": {
+      "1": {
+        "n": 29435,
+        "p1": -0.019541521974143224,
+        "p99": 0.018935742113605165,
+        "worst_down": [
+          -0.1156955406611781,
+          "2025-02-03T01:00Z"
+        ],
+        "worst_up": [
+          0.09593460187274824,
+          "2025-03-02T16:00Z"
+        ]
+      },
+      "24": {
+        "n": 29366,
+        "p1": -0.08602661138040912,
+        "p99": 0.09302957569956044,
+        "worst_down": [
+          -0.23760052013824728,
+          "2024-08-05T12:00Z"
+        ],
+        "worst_up": [
+          0.24683249968996734,
+          "2025-05-09T08:00Z"
+        ]
+      },
+      "missing": [
+        "2025-10-25T16:00Z",
+        "2025-10-25T17:00Z",
+        "2025-10-25T18:00Z",
+        "2025-10-25T19:00Z",
+        "2025-10-25T20:00Z",
+        "2026-05-08T02:00Z",
+        "2026-05-08T03:00Z",
+        "2026-05-08T04:00Z",
+        "2026-05-08T05:00Z",
+        "2026-05-08T06:00Z"
+      ],
+      "observed": 29438
+    }
+  }
+}

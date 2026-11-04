@@ -1,0 +1,14 @@
+PASS ETH observed hours equal
+PASS ETH full-window funding sum equal (exact)
+PASS ETH annualized rate equal within decimal-context tolerance
+PASS BTC observed hours equal
+PASS BTC full-window funding sum equal (exact)
+PASS BTC annualized rate equal within decimal-context tolerance
+PASS cost worksheet rows present
+PASS cost base D=30
+PASS cost base D=90
+PASS cost base D=365
+PASS cost doubled (sole sensitivity) D=30
+PASS cost doubled (sole sensitivity) D=90
+PASS cost doubled (sole sensitivity) D=365
+independent check: PASS

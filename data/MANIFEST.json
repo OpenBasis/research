@@ -1,0 +1,1759 @@
+{
+ "built_utc": "2026-11-01T19:27:07Z",
+ "n_files": 349,
+ "logged_hash_mismatches": [],
+ "source_root_hashes": {
+  "data/COVERAGE.json": "8fbaf0f9ffc9315a01b8c41bd54729b44c70aacfb45d6e765ea6db86b9dc5c86",
+  "data/raw/coinbase": "ec11be4b89092ead2d14f80d7a5fc618cc7b50903a700227bb1905ad1c25e6ea",
+  "data/raw/defillama": "e56390595777e4b827114c8b766f893f2fc71852c663e4cc029420d12f0fb260",
+  "data/raw/defillama_adapter_evidence": "adfff454d8e106ae5538f3d8bb41382f1b412cd04d3eea1b95ee22f9e7cdaa77",
+  "data/raw/hyperliquid": "9c9e4067f92f424090e5fc60e16a8373d0eeb4b4ecbc9b303ec185e886c6712d"
+ },
+ "files": [
+  {
+   "file": "data/COVERAGE.json",
+   "bytes": 3022,
+   "sha256": "61311b002808ae175c18899e1f14076cd7b59a87b9a0544eaf466c1088ade230"
+  },
+  {
+   "file": "data/raw/coinbase/BTC-USD_pages.ndjson",
+   "bytes": 41272,
+   "sha256": "fe8f5fdbb39d027e0ea7a55036fd5528950adc20b94877d32de92a86c5c66005"
+  },
+  {
+   "file": "data/raw/coinbase/ETH-USD_pages.ndjson",
+   "bytes": 41272,
+   "sha256": "be7f2d0ce3030a1bbb53b736ce23f8104cdc12b3ba7054ef47b3d86b77567f6c"
+  },
+  {
+   "file": "data/raw/coinbase/BTC-USD/page_0000.json",
+   "bytes": 18303,
+   "sha256": "b61df93d6b96883e37fb50b5fbc26de793381bcea0ba80edfd72b54fabe83f0d"
+  },
+  {
+   "file": "data/raw/coinbase/BTC-USD/page_0001.json",
+   "bytes": 18299,
+   "sha256": "80ad8c8515bfc855349d503933ce0d371e93b57517719d003f2841f1dd86d6ba"
+  },
+  {
+   "file": "data/raw/coinbase/BTC-USD/page_0002.json",
+   "bytes": 18280,
+   "sha256": "d4d70e38d832615392508f8730166df08a816ed3c4dc4b426e3cf72806d34b64"
+  },
+  {
+   "file": "data/raw/coinbase/BTC-USD/page_0003.json",
+   "bytes": 18295,
+   "sha256": "f992a81860ae75fcc87a3d38bfda2c2d796004c067dcb8e8000d875bdce35429"
+  },
+  {
+   "file": "data/raw/coinbase/BTC-USD/page_0004.json",
+   "bytes": 18342,
+   "sha256": "b0377839934f94b4ae173fc01c30109dc323d326a9787344a6f737bc7e5060c1"
+  },
+  {
+   "file": "data/raw/coinbase/BTC-USD/page_0005.json",
+   "bytes": 18288,
+   "sha256": "432ce430a18133a3724d86cfbbe8781f7bda09e84efdfdadcfdba2f171d2e2fd"
+  },
+  {
+   "file": "data/raw/coinbase/BTC-USD/page_0006.json",
+   "bytes": 18306,
+   "sha256": "dcce1ce1b37c38ed3df58a1c3e294ac584bd1d094952fe23a1f458b2527f6d71"
+  },
+  {
+   "file": "data/raw/coinbase/BTC-USD/page_0007.json",
+   "bytes": 18311,
+   "sha256": "ddf25acaf13f0c26f96f381ec1b4a5a6c64c94de013df8f32d62d4c63991f86d"
+  },
+  {
+   "file": "data/raw/coinbase/BTC-USD/page_0008.json",
+   "bytes": 18334,
+   "sha256": "434cf492c1134bec4ea22607e7b26fde5ce5baa00fc6fd1334266957c98ec5d6"
+  },
+  {
+   "file": "data/raw/coinbase/BTC-USD/page_0009.json",
+   "bytes": 18381,
+   "sha256": "628c801e3d3fdff1d54b1ef57c74248496732d34afae1467087b7ee9115be348"
+  },
+  {
+   "file": "data/raw/coinbase/BTC-USD/page_0010.json",
+   "bytes": 18285,
+   "sha256": "dfaaaf858673aca632cf7d57f5e9ec46343e84a9a114c86f1b10219782cfa0ea"
+  },
+  {
+   "file": "data/raw/coinbase/BTC-USD/page_0011.json",
+   "bytes": 18311,
+   "sha256": "19de45408516993cec469cd48d1ce295abb1d1bc902522ab1f849b50291ee82c"
+  },
+  {
+   "file": "data/raw/coinbase/BTC-USD/page_0012.json",
+   "bytes": 18297,
+   "sha256": "facd8d5a151cda10f84d6782bceec5719909a92494b7accc63da84e45804b6f4"
+  },
+  {
+   "file": "data/raw/coinbase/BTC-USD/page_0013.json",
+   "bytes": 18294,
+   "sha256": "cc44f5cb487d06b2006fcd28d4bfd6f5551c11a349bf437b9f41726af2f29d12"
+  },
+  {
+   "file": "data/raw/coinbase/BTC-USD/page_0014.json",
+   "bytes": 18287,
+   "sha256": "5dde6dd5311f2cf85b62dc8a41be53772b10a67378f773e6584cc8dba09853ec"
+  },
+  {
+   "file": "data/raw/coinbase/BTC-USD/page_0015.json",
+   "bytes": 18279,
+   "sha256": "8afd360298b407795bb2aff7d4c47371e3b899e74628d71d586229afa97a3e93"
+  },
+  {
+   "file": "data/raw/coinbase/BTC-USD/page_0016.json",
+   "bytes": 18344,
+   "sha256": "4f2f7354c65b0ba77e43b96be9e9d86476bd9ba48ea5b3be8556d63eec385ba8"
+  },
+  {
+   "file": "data/raw/coinbase/BTC-USD/page_0017.json",
+   "bytes": 18295,
+   "sha256": "34f463f5ed941dba928ad4596d76fcc2599e776b2c71375e8a346ba0fcb5da95"
+  },
+  {
+   "file": "data/raw/coinbase/BTC-USD/page_0018.json",
+   "bytes": 18230,
+   "sha256": "5f2559f3932fb266979cc3b88ba77beef3c50e1f7df94bbd5eb6a00996a05941"
+  },
+  {
+   "file": "data/raw/coinbase/BTC-USD/page_0019.json",
+   "bytes": 18262,
+   "sha256": "e42414ce9582e36371fc8c361f6bce1bbcf9bac839b315beddb1ec3d649d7191"
+  },
+  {
+   "file": "data/raw/coinbase/BTC-USD/page_0020.json",
+   "bytes": 18282,
+   "sha256": "36bf5a62aa671aa302bfbb77734e449553ab9183f2368fd4095a3f3bfb37529c"
+  },
+  {
+   "file": "data/raw/coinbase/BTC-USD/page_0021.json",
+   "bytes": 18375,
+   "sha256": "3c020197979a2e12bc76baaa4dbfdbb887d0743a68e35c864fdd260406aaf5e3"
+  },
+  {
+   "file": "data/raw/coinbase/BTC-USD/page_0022.json",
+   "bytes": 18252,
+   "sha256": "6ac175b836fcf9e0ef4b6096312ac706c9c93290c1bbdb1d970e6a6f48b63e1e"
+  },
+  {
+   "file": "data/raw/coinbase/BTC-USD/page_0023.json",
+   "bytes": 18221,
+   "sha256": "c91717204e0f2dca6e138c09f9c203996678f8442542f1665f29ed9245c92ef4"
+  },
+  {
+   "file": "data/raw/coinbase/BTC-USD/page_0024.json",
+   "bytes": 18259,
+   "sha256": "1136b4970f7e7ed5613aa06c80f271eb26b3d4f55e46ed3fcaced3dea4689d63"
+  },
+  {
+   "file": "data/raw/coinbase/BTC-USD/page_0025.json",
+   "bytes": 18288,
+   "sha256": "ff0ea8f71f744f93370f28bb17baa12402cfdf34c6e353c899a7f382251ef751"
+  },
+  {
+   "file": "data/raw/coinbase/BTC-USD/page_0026.json",
+   "bytes": 18301,
+   "sha256": "84e00d60f7bf0e5e7593201f3da6ad51c1f38ee5c6957a7f076338640dfce880"
+  },
+  {
+   "file": "data/raw/coinbase/BTC-USD/page_0027.json",
+   "bytes": 18214,
+   "sha256": "3f6c8a89663c296dcf067d8f99990ff88e810e51a3b046681fe0523416c6bcd7"
+  },
+  {
+   "file": "data/raw/coinbase/BTC-USD/page_0028.json",
+   "bytes": 18160,
+   "sha256": "04435fc6a5860cf96a1919173be87303b46356686162840782a79b014e7f784d"
+  },
+  {
+   "file": "data/raw/coinbase/BTC-USD/page_0029.json",
+   "bytes": 18256,
+   "sha256": "814bf89fb09df129e82afb390abd0518a784918644ab95a69d07adcf6d5afd83"
+  },
+  {
+   "file": "data/raw/coinbase/BTC-USD/page_0030.json",
+   "bytes": 18286,
+   "sha256": "2e88e2eaa7b34a41cf585f8c1074f47c9046500e29b4cf5745f6a11f78a7680f"
+  },
+  {
+   "file": "data/raw/coinbase/BTC-USD/page_0031.json",
+   "bytes": 18244,
+   "sha256": "945150beb591de2ae7ec1c8d742052781e14df8b8ec2d34499f1951d5b1a21de"
+  },
+  {
+   "file": "data/raw/coinbase/BTC-USD/page_0032.json",
+   "bytes": 18230,
+   "sha256": "b976b896f09c0bb39dcbf6f24e8e0c80a03d8366b1e8d4859905fe22a5e235de"
+  },
+  {
+   "file": "data/raw/coinbase/BTC-USD/page_0033.json",
+   "bytes": 18306,
+   "sha256": "7535f75fab45e4628a06c7f1489f702effc2d81e26b85e9c663945e0342eb1df"
+  },
+  {
+   "file": "data/raw/coinbase/BTC-USD/page_0034.json",
+   "bytes": 18257,
+   "sha256": "a01120f8afc38fb055de68c97cbcc8bf68d37764c961bb90f0ffe4394966e076"
+  },
+  {
+   "file": "data/raw/coinbase/BTC-USD/page_0035.json",
+   "bytes": 18208,
+   "sha256": "b059a6301176e2b1b148b2f29c8a44a5c34162ce8cddb199e1db389eb2e25c5f"
+  },
+  {
+   "file": "data/raw/coinbase/BTC-USD/page_0036.json",
+   "bytes": 18189,
+   "sha256": "b85504b4a89db76d473de8e10a05e5f0aed51bd6cbbff27d25dd94b70e6ab1f2"
+  },
+  {
+   "file": "data/raw/coinbase/BTC-USD/page_0037.json",
+   "bytes": 18190,
+   "sha256": "377376e43a1a836be387b134b5d8ec339b775af435aebd87858f6ff1a97b2cf2"
+  },
+  {
+   "file": "data/raw/coinbase/BTC-USD/page_0038.json",
+   "bytes": 18252,
+   "sha256": "a0bc201ad836f832cee98ba0351b9facebe5974cefbe819cc960c2b3faf906a5"
+  },
+  {
+   "file": "data/raw/coinbase/BTC-USD/page_0039.json",
+   "bytes": 18200,
+   "sha256": "fa34199f128938840f8d41839d965770a39f149e8394cd60a0f8e3b5ac96ab08"
+  },
+  {
+   "file": "data/raw/coinbase/BTC-USD/page_0040.json",
+   "bytes": 18254,
+   "sha256": "69bcc7d406671843909e4cbfb5841d3212d2c80a30658a59f9c36d50708e57f8"
+  },
+  {
+   "file": "data/raw/coinbase/BTC-USD/page_0041.json",
+   "bytes": 18285,
+   "sha256": "9ab87850509bc3445d7a36ac5d5e62aefb75cc77e63ef86bce5e6a4220451acc"
+  },
+  {
+   "file": "data/raw/coinbase/BTC-USD/page_0042.json",
+   "bytes": 18398,
+   "sha256": "285450b2cd858329fa1aa25350cab6685c6b95fb57e14553ab37b61d347b214e"
+  },
+  {
+   "file": "data/raw/coinbase/BTC-USD/page_0043.json",
+   "bytes": 19035,
+   "sha256": "05eeaa11e5b275d01a6865d137b958b48135980da5582425a8a3c004c941099b"
+  },
+  {
+   "file": "data/raw/coinbase/BTC-USD/page_0044.json",
+   "bytes": 18224,
+   "sha256": "e7a22df7b0c1b9450d362c6ee1aee15322a80201850038986dda535991bc1422"
+  },
+  {
+   "file": "data/raw/coinbase/BTC-USD/page_0045.json",
+   "bytes": 18351,
+   "sha256": "56f064c591d678c1004a72b77e030b4b8f91ee5e7e92aba4a9819fd484bbb02b"
+  },
+  {
+   "file": "data/raw/coinbase/BTC-USD/page_0046.json",
+   "bytes": 19383,
+   "sha256": "dad04e6eb6a422d08beca748b9ee4dae2806cf873b0fe7d1d6366ec875803ca0"
+  },
+  {
+   "file": "data/raw/coinbase/BTC-USD/page_0047.json",
+   "bytes": 18492,
+   "sha256": "ba39c8dc9f6e78750ffec97c104eb8c7269ee688c8f4082e2963040b9978b36e"
+  },
+  {
+   "file": "data/raw/coinbase/BTC-USD/page_0048.json",
+   "bytes": 18169,
+   "sha256": "de5e30f8b3b0fc77d5b35769246ceba14c960565ea3e996a5f865c14d744bb26"
+  },
+  {
+   "file": "data/raw/coinbase/BTC-USD/page_0049.json",
+   "bytes": 18236,
+   "sha256": "3977803cfda205c0a78428f6c8c3c721f1334089f0cd67564b673b925c5ba717"
+  },
+  {
+   "file": "data/raw/coinbase/BTC-USD/page_0050.json",
+   "bytes": 18242,
+   "sha256": "072f58f29dfed9b9b799d177884105f3d5e24e37b421d4b35887c8e35767789a"
+  },
+  {
+   "file": "data/raw/coinbase/BTC-USD/page_0051.json",
+   "bytes": 18213,
+   "sha256": "f2d8acc4ea75718780293bd136df1093deb24ed56086b2f03a56d5f48ddf893a"
+  },
+  {
+   "file": "data/raw/coinbase/BTC-USD/page_0052.json",
+   "bytes": 18244,
+   "sha256": "af841b16a33947f20b736b03373401a5d4159be4f73621e1c2f593c589398600"
+  },
+  {
+   "file": "data/raw/coinbase/BTC-USD/page_0053.json",
+   "bytes": 18179,
+   "sha256": "6981e7ef594956d903088fae5661de3785b81216c6d02db6355586cec4b46e05"
+  },
+  {
+   "file": "data/raw/coinbase/BTC-USD/page_0054.json",
+   "bytes": 18262,
+   "sha256": "fa68e4a9e4ea25ead80ae3e96e0b4ee194100f29a81276667bccf2432e05c87e"
+  },
+  {
+   "file": "data/raw/coinbase/BTC-USD/page_0055.json",
+   "bytes": 19360,
+   "sha256": "ecef6297e09442fdce7a69bf43f2254959638d3758e91b4a6b6116b58334f824"
+  },
+  {
+   "file": "data/raw/coinbase/BTC-USD/page_0056.json",
+   "bytes": 19375,
+   "sha256": "f5da101a26a081ed8a9edb7b359fe63df54b9f25a9709e54cbbc2f830ef854cd"
+  },
+  {
+   "file": "data/raw/coinbase/BTC-USD/page_0057.json",
+   "bytes": 19337,
+   "sha256": "75cc23283af5268a11f4149bc18a1f9518d185f9200a5e6e7358693c78b17ea9"
+  },
+  {
+   "file": "data/raw/coinbase/BTC-USD/page_0058.json",
+   "bytes": 19281,
+   "sha256": "152fb56a4616e1875c6ba8c92921c7a8f50f9961fc23cf08c25a946bbe932f62"
+  },
+  {
+   "file": "data/raw/coinbase/BTC-USD/page_0059.json",
+   "bytes": 19300,
+   "sha256": "d7373cb1f2b553f52736a652a7905856e717779aecadd8edc25520b9d0059ad7"
+  },
+  {
+   "file": "data/raw/coinbase/BTC-USD/page_0060.json",
+   "bytes": 19341,
+   "sha256": "750a2a5c593dc065125cd9d9e6e79bd41157a8736c2edff44ac7169f0aa165ad"
+  },
+  {
+   "file": "data/raw/coinbase/BTC-USD/page_0061.json",
+   "bytes": 19298,
+   "sha256": "780f493efa2e5ac56ed8165c2f83d339b1f53ac19410b9b6fc6d38929bb68526"
+  },
+  {
+   "file": "data/raw/coinbase/BTC-USD/page_0062.json",
+   "bytes": 19298,
+   "sha256": "72563127431ebc5ef40dcc2ca1ca5b991d92915aee1c36504d58d66b761f3e00"
+  },
+  {
+   "file": "data/raw/coinbase/BTC-USD/page_0063.json",
+   "bytes": 19377,
+   "sha256": "bc51fc4c125065baa7c19d0dd97083a1564fbdb2c790edf6c334d7be984fa6c9"
+  },
+  {
+   "file": "data/raw/coinbase/BTC-USD/page_0064.json",
+   "bytes": 19348,
+   "sha256": "0505e2b791b40dc972b4d9871d125e933f6df8e4b3556fb6e85f1f531835941b"
+  },
+  {
+   "file": "data/raw/coinbase/BTC-USD/page_0065.json",
+   "bytes": 19219,
+   "sha256": "afebc57e7b0b2d8be20355f8d95c3d3498a22f4cc7ff2d7848e049acd92938e1"
+  },
+  {
+   "file": "data/raw/coinbase/BTC-USD/page_0066.json",
+   "bytes": 19253,
+   "sha256": "bb7da556ad3fc8e988db4f619ccea94242fb667978705c83ee2b8b875dd94f80"
+  },
+  {
+   "file": "data/raw/coinbase/BTC-USD/page_0067.json",
+   "bytes": 19259,
+   "sha256": "101d77743fbfb463a176b16cb7bf62aa7610d7081032aa051c016492dd3daf6f"
+  },
+  {
+   "file": "data/raw/coinbase/BTC-USD/page_0068.json",
+   "bytes": 18858,
+   "sha256": "329f4e01c95d58570eaa60837e597ae28419146811eb2a5a7562865d581b749f"
+  },
+  {
+   "file": "data/raw/coinbase/BTC-USD/page_0069.json",
+   "bytes": 19240,
+   "sha256": "72a4284f6fdfef621c2fcfc29b42890d87cb9b5fae264d837adb6b481a9969ab"
+  },
+  {
+   "file": "data/raw/coinbase/BTC-USD/page_0070.json",
+   "bytes": 18019,
+   "sha256": "5e3532d76f224b91fddcf2ca53d5f9073f41ee255012e096f75ef08551cc1198"
+  },
+  {
+   "file": "data/raw/coinbase/BTC-USD/page_0071.json",
+   "bytes": 18063,
+   "sha256": "37eb594ec7e1651d1c256a53c13b4adffb3fb2740b6c436df3329d0878ec243f"
+  },
+  {
+   "file": "data/raw/coinbase/BTC-USD/page_0072.json",
+   "bytes": 17819,
+   "sha256": "cc522e70ce1924adc7b7c4f0db05e0dcb166b294efdf0fa338e7ffec9fee486e"
+  },
+  {
+   "file": "data/raw/coinbase/BTC-USD/page_0073.json",
+   "bytes": 18006,
+   "sha256": "d4f9d395a0afe172cbe63d0c571851967e696fd9f8d173a0f362bb95f8163437"
+  },
+  {
+   "file": "data/raw/coinbase/BTC-USD/page_0074.json",
+   "bytes": 17970,
+   "sha256": "e0bd984613b8011e5f90a21e962b20766af8ce7efa79940f83ce8bb923d5c94a"
+  },
+  {
+   "file": "data/raw/coinbase/BTC-USD/page_0075.json",
+   "bytes": 17916,
+   "sha256": "73d15641e4c0a0616650ea45f57b063998d922b7f846cdf7958f9340703adc3f"
+  },
+  {
+   "file": "data/raw/coinbase/BTC-USD/page_0076.json",
+   "bytes": 18082,
+   "sha256": "05955990505a023d6e12097f5d20f9fa958fa168bc4da1c6b40ea3de543b6cd7"
+  },
+  {
+   "file": "data/raw/coinbase/BTC-USD/page_0077.json",
+   "bytes": 18042,
+   "sha256": "862165dcfa59424311002dd3bd80b04c28ad93db4e51f673f46253fa0808eb03"
+  },
+  {
+   "file": "data/raw/coinbase/BTC-USD/page_0078.json",
+   "bytes": 18114,
+   "sha256": "bc9223d575a6b544ab7304219343b3f23c42b7206c41e1c78d78139e7d0df626"
+  },
+  {
+   "file": "data/raw/coinbase/BTC-USD/page_0079.json",
+   "bytes": 18224,
+   "sha256": "86e87d03386b99852b20d2ec0a9b0bc00d6007e5272b24e05c644700c9249a5d"
+  },
+  {
+   "file": "data/raw/coinbase/BTC-USD/page_0080.json",
+   "bytes": 18043,
+   "sha256": "fc218b1815537cae61ab9752f70987ce84d3076e52e3a332e4d5ced3fc7e031c"
+  },
+  {
+   "file": "data/raw/coinbase/BTC-USD/page_0081.json",
+   "bytes": 18030,
+   "sha256": "2bc0d767c8d9835769524de466f50c303a481e3463fa568245203ee538121a5e"
+  },
+  {
+   "file": "data/raw/coinbase/BTC-USD/page_0082.json",
+   "bytes": 18175,
+   "sha256": "00d018a67fcc852f8c831f042a3287c711ab3cbd391cc3fdc07b5b4725c1244b"
+  },
+  {
+   "file": "data/raw/coinbase/BTC-USD/page_0083.json",
+   "bytes": 18072,
+   "sha256": "c90ae0665cbe10dfb2fe037966ba3fef8d8fb47ac98d832c39f3c8fba8a78d6a"
+  },
+  {
+   "file": "data/raw/coinbase/BTC-USD/page_0084.json",
+   "bytes": 17705,
+   "sha256": "4bd53099040f2236b2e7b1f79320247b8b51a8447df85d7c8b8fc01baadc842b"
+  },
+  {
+   "file": "data/raw/coinbase/BTC-USD/page_0085.json",
+   "bytes": 18086,
+   "sha256": "120aa1001207236bfa07e029e2edff100165731dceeee837690a4bb6067573fe"
+  },
+  {
+   "file": "data/raw/coinbase/BTC-USD/page_0086.json",
+   "bytes": 18128,
+   "sha256": "387d087103965d2d7f0c52894f8d91b363c744b8e42dbd0a223011fb090d20d7"
+  },
+  {
+   "file": "data/raw/coinbase/BTC-USD/page_0087.json",
+   "bytes": 18173,
+   "sha256": "04e045a3a93b1ab84ca6a8f03a7b66ff4987add6f86c2f715f440cded4f883c5"
+  },
+  {
+   "file": "data/raw/coinbase/BTC-USD/page_0088.json",
+   "bytes": 18157,
+   "sha256": "8b321aadefc73d6e7d966e46623c98b2cc43b891068348b0bff82b731c62faf6"
+  },
+  {
+   "file": "data/raw/coinbase/BTC-USD/page_0089.json",
+   "bytes": 18040,
+   "sha256": "1f870c8761f01a31a827919225c74d943bdbd5541f10eac444600863e7e41152"
+  },
+  {
+   "file": "data/raw/coinbase/BTC-USD/page_0090.json",
+   "bytes": 18144,
+   "sha256": "714f4eee85d7da02f96b9cbc8512f43fa1308b651bfea5dff4fcdb7f6a7880dc"
+  },
+  {
+   "file": "data/raw/coinbase/BTC-USD/page_0091.json",
+   "bytes": 18145,
+   "sha256": "0c2ccf2c5f17e48cf8999c8a371847d4aecb78c0a606d11174aab63da90bd85e"
+  },
+  {
+   "file": "data/raw/coinbase/BTC-USD/page_0092.json",
+   "bytes": 18183,
+   "sha256": "0a52e7df63ea07b110eaeec56d8fed627f0f08b6d72b6bf1b89e3654234a87d5"
+  },
+  {
+   "file": "data/raw/coinbase/BTC-USD/page_0093.json",
+   "bytes": 18053,
+   "sha256": "83a784f9cdff26ac8f73a3439ca8c18ba58a0cb97a9627ee070b8fe065e735e6"
+  },
+  {
+   "file": "data/raw/coinbase/BTC-USD/page_0094.json",
+   "bytes": 18090,
+   "sha256": "5540548cdb51e80fc2a473fcd6cc527816cab7181fe1819a7893a2ad9d9f011b"
+  },
+  {
+   "file": "data/raw/coinbase/BTC-USD/page_0095.json",
+   "bytes": 18096,
+   "sha256": "1dfb0c0651469d2bec1316f4f788550a1eab43fc67475b0f3a66d591400181b7"
+  },
+  {
+   "file": "data/raw/coinbase/BTC-USD/page_0096.json",
+   "bytes": 18191,
+   "sha256": "588ade5a30cdd4d815574696b27948f0982413e53bbb5d91deb6506105188a54"
+  },
+  {
+   "file": "data/raw/coinbase/BTC-USD/page_0097.json",
+   "bytes": 18130,
+   "sha256": "47c168c6bcc524af86ae95461ce5253a029c2a3defc0e56d7830a7628a29b054"
+  },
+  {
+   "file": "data/raw/coinbase/BTC-USD/page_0098.json",
+   "bytes": 2908,
+   "sha256": "c1cdb7551edf5dfde935040e243ad2b491f504089f46149e6a660a66014e5a31"
+  },
+  {
+   "file": "data/raw/coinbase/ETH-USD/page_0000.json",
+   "bytes": 17421,
+   "sha256": "96e4dc697afddab14a2477463dc57c64d26435119e798dea3f7f504e8d1b1765"
+  },
+  {
+   "file": "data/raw/coinbase/ETH-USD/page_0001.json",
+   "bytes": 17467,
+   "sha256": "131c3d7fa34bf5f3041f4e897b3966cdd09e4ec2e3a12e218ee575853b57cd36"
+  },
+  {
+   "file": "data/raw/coinbase/ETH-USD/page_0002.json",
+   "bytes": 17434,
+   "sha256": "087f8f0535ca34b0f6f05ed3e693678c61d9cc2c83a33d7b36c0102fc3285b97"
+  },
+  {
+   "file": "data/raw/coinbase/ETH-USD/page_0003.json",
+   "bytes": 17387,
+   "sha256": "6309068f0e2f48d17c8861f6a4e207108ce9197bb9ebf1a9f6caba6478e7a0c2"
+  },
+  {
+   "file": "data/raw/coinbase/ETH-USD/page_0004.json",
+   "bytes": 17448,
+   "sha256": "1f87f5c0c0c20a927561b72864e61bc2301baa02231cb0c285efb4795b6e4a55"
+  },
+  {
+   "file": "data/raw/coinbase/ETH-USD/page_0005.json",
+   "bytes": 17436,
+   "sha256": "8daac5313e932a49382f2ec3319a4981c0a1ac0dc865aad26e37bbc7384a89ee"
+  },
+  {
+   "file": "data/raw/coinbase/ETH-USD/page_0006.json",
+   "bytes": 17439,
+   "sha256": "80e3129a59aaae2d3363468cbe010095fde9e8ebb24a68b2c78caa3d0b1bf424"
+  },
+  {
+   "file": "data/raw/coinbase/ETH-USD/page_0007.json",
+   "bytes": 17439,
+   "sha256": "c061ab948a1f4a0aa43c268bc6e50397c5ef85092c7f5870704ef1a63cee7742"
+  },
+  {
+   "file": "data/raw/coinbase/ETH-USD/page_0008.json",
+   "bytes": 17442,
+   "sha256": "c24abf074a2e56b79249b8479e48d1695ab04653deb980bc98b51f3b6c3e9e0e"
+  },
+  {
+   "file": "data/raw/coinbase/ETH-USD/page_0009.json",
+   "bytes": 17440,
+   "sha256": "1b140d63d6417d4f4745f7238085c8bd78f10dd35625a30951c2d1617d54601e"
+  },
+  {
+   "file": "data/raw/coinbase/ETH-USD/page_0010.json",
+   "bytes": 17454,
+   "sha256": "fe9502f966249ab45234239486c5f9174629c0a6a9683d9480d0acf65fed3c9d"
+  },
+  {
+   "file": "data/raw/coinbase/ETH-USD/page_0011.json",
+   "bytes": 17458,
+   "sha256": "3f9f1996736281564a98b15632a1d973040c5b85e6a7b83809e2bc0ea637c893"
+  },
+  {
+   "file": "data/raw/coinbase/ETH-USD/page_0012.json",
+   "bytes": 17431,
+   "sha256": "c18ef996b91e1082ca46e5334f0564c44601e87774e9c1ba5736ec76260f4e14"
+  },
+  {
+   "file": "data/raw/coinbase/ETH-USD/page_0013.json",
+   "bytes": 17486,
+   "sha256": "d3b20e82d736af7e1aa8b17ced310d77369a148fda4d04a980092791961dd600"
+  },
+  {
+   "file": "data/raw/coinbase/ETH-USD/page_0014.json",
+   "bytes": 17483,
+   "sha256": "ef58f630e6232ff10d4e07885d34b025b3775664a4474a8492eb3b5b15555601"
+  },
+  {
+   "file": "data/raw/coinbase/ETH-USD/page_0015.json",
+   "bytes": 17494,
+   "sha256": "a3264441afbaf7fcd2ac32300c1e2e1cc853d99f3a30586b8020a38f54ed9e1b"
+  },
+  {
+   "file": "data/raw/coinbase/ETH-USD/page_0016.json",
+   "bytes": 17522,
+   "sha256": "652a0a1ec89d6675f973a874a43977a0e3884596bba7cc22470828b19d00918b"
+  },
+  {
+   "file": "data/raw/coinbase/ETH-USD/page_0017.json",
+   "bytes": 17446,
+   "sha256": "ed78f4c7a513f72b473fa60a45acdd3eb0b21c15cf51391f4f13a0c891694f8a"
+  },
+  {
+   "file": "data/raw/coinbase/ETH-USD/page_0018.json",
+   "bytes": 17418,
+   "sha256": "99200aade2f8b38d10df47b75796c14e3f14319b6c4252a5f1b0bd5c0f428f26"
+  },
+  {
+   "file": "data/raw/coinbase/ETH-USD/page_0019.json",
+   "bytes": 17465,
+   "sha256": "2e7259a8b394f71ebfa2e97dc843509c49b8b2d86bf9fa5b57553d6523c5b6c7"
+  },
+  {
+   "file": "data/raw/coinbase/ETH-USD/page_0020.json",
+   "bytes": 17464,
+   "sha256": "145cb8525465c8f8afdcee84cf905609382d0ce2f8e5e122f0196a0554f5244a"
+  },
+  {
+   "file": "data/raw/coinbase/ETH-USD/page_0021.json",
+   "bytes": 17497,
+   "sha256": "b2c26299b03522c8aea71c4f806386839c99f778dc8bdccbf22e9aed1a16b6f4"
+  },
+  {
+   "file": "data/raw/coinbase/ETH-USD/page_0022.json",
+   "bytes": 17475,
+   "sha256": "f82cd167f95b229a6b006abc3bc9dbab72be053bd69953789e3d0bc13ee65f19"
+  },
+  {
+   "file": "data/raw/coinbase/ETH-USD/page_0023.json",
+   "bytes": 17463,
+   "sha256": "b1821ff5fed3419d83c2a3dff68b67e00a0c58b4de97ffaedc09a0b924e965cf"
+  },
+  {
+   "file": "data/raw/coinbase/ETH-USD/page_0024.json",
+   "bytes": 17440,
+   "sha256": "c110ab1a3035b7482ada478336d10ea9d112c85d5e90ff75ab3ff56e5e0d8629"
+  },
+  {
+   "file": "data/raw/coinbase/ETH-USD/page_0025.json",
+   "bytes": 17471,
+   "sha256": "56b17a716ad204d5fc2abbe4c721c9ebdac70c15a1c071b7a4c19cc5334e4bcf"
+  },
+  {
+   "file": "data/raw/coinbase/ETH-USD/page_0026.json",
+   "bytes": 17482,
+   "sha256": "842e2fca41a7d83afad3e774305993b86fc8ff30f1b293bc7d77fb7fd66c8bca"
+  },
+  {
+   "file": "data/raw/coinbase/ETH-USD/page_0027.json",
+   "bytes": 17421,
+   "sha256": "6ee4431cdc297c7fcc188c4a8beeef6717e804c065e01cf067934bab24cd1a4c"
+  },
+  {
+   "file": "data/raw/coinbase/ETH-USD/page_0028.json",
+   "bytes": 17387,
+   "sha256": "edd6a150b8095ee9dc0ea3def5fbedf588508fd17ad5a7d1bc6df5faaf8bbc2c"
+  },
+  {
+   "file": "data/raw/coinbase/ETH-USD/page_0029.json",
+   "bytes": 17442,
+   "sha256": "9e26536d7a8d3c54a7d407b53efcf1c32c615508ffed6536fcf328999ff22e21"
+  },
+  {
+   "file": "data/raw/coinbase/ETH-USD/page_0030.json",
+   "bytes": 17426,
+   "sha256": "338559768d3bb49c6b0d488b572938ff2eacbc216cf6f85c0406241677d55dbc"
+  },
+  {
+   "file": "data/raw/coinbase/ETH-USD/page_0031.json",
+   "bytes": 17432,
+   "sha256": "1ecaaa18bf006afdbc7d1c1d0cae9e06734bc10bfe7f04d6f51c367238631554"
+  },
+  {
+   "file": "data/raw/coinbase/ETH-USD/page_0032.json",
+   "bytes": 17526,
+   "sha256": "504152cce5ada6529bf66bacaae8076377918aeaa0ab7d48ec49c9e5ac49c178"
+  },
+  {
+   "file": "data/raw/coinbase/ETH-USD/page_0033.json",
+   "bytes": 17431,
+   "sha256": "0eb39fae4b8c8a4b55b6c809f50945d5f590980adb233252bb2a3d36934ec7df"
+  },
+  {
+   "file": "data/raw/coinbase/ETH-USD/page_0034.json",
+   "bytes": 17412,
+   "sha256": "8dd819a3861d887ba81d262ba2d4232dc78eecca2776efa336ded3a861155172"
+  },
+  {
+   "file": "data/raw/coinbase/ETH-USD/page_0035.json",
+   "bytes": 17439,
+   "sha256": "92f6cca230b5ac22b8d719fa476f3168d5ce5569f70601ca5ab7d9b47a3f2d70"
+  },
+  {
+   "file": "data/raw/coinbase/ETH-USD/page_0036.json",
+   "bytes": 17432,
+   "sha256": "2fa97baee76cb2a7cb8338f80520f6f70f442d3e59271bc0098843676f0e930f"
+  },
+  {
+   "file": "data/raw/coinbase/ETH-USD/page_0037.json",
+   "bytes": 17387,
+   "sha256": "e6a8e342fff0c43d3c422f0736d4f96b87fe3038ce015f1fc3ddf8526ef5a2a6"
+  },
+  {
+   "file": "data/raw/coinbase/ETH-USD/page_0038.json",
+   "bytes": 17449,
+   "sha256": "b7c0ac67c107bff527d4d7fd81888eed2b08daa7b19f05f1b62b3e2df0acc218"
+  },
+  {
+   "file": "data/raw/coinbase/ETH-USD/page_0039.json",
+   "bytes": 17441,
+   "sha256": "921d13630e5535f7a54bdd10014848332c8fc513a1911f2de5f15bc97d94b6e3"
+  },
+  {
+   "file": "data/raw/coinbase/ETH-USD/page_0040.json",
+   "bytes": 17524,
+   "sha256": "7c1cac5475fb09c2012d47a5959f708c83ee3b3c2309605f2c242d0cbdb57043"
+  },
+  {
+   "file": "data/raw/coinbase/ETH-USD/page_0041.json",
+   "bytes": 17447,
+   "sha256": "39e51dc54a62b837b320deb4d162fb2f71ca83f9ae2a60217c1ab491a089e953"
+  },
+  {
+   "file": "data/raw/coinbase/ETH-USD/page_0042.json",
+   "bytes": 17446,
+   "sha256": "fd2663c391961eb683eb8a896976723c856ac2fd6b9b1a5478717348c1b15100"
+  },
+  {
+   "file": "data/raw/coinbase/ETH-USD/page_0043.json",
+   "bytes": 17469,
+   "sha256": "049dc7253518cd1fc76f514b4dd7b9b892c6cf96437b42a45a2ca68fddcf281b"
+  },
+  {
+   "file": "data/raw/coinbase/ETH-USD/page_0044.json",
+   "bytes": 17368,
+   "sha256": "768fe33876aca6beff4f0200f4e2401ea01c60602af7ba704ba359062cac6bb1"
+  },
+  {
+   "file": "data/raw/coinbase/ETH-USD/page_0045.json",
+   "bytes": 17469,
+   "sha256": "27d8083908c8732f860fd85c43f1c4c4f390d62b7b6d7a9a48fd1bc6c2a0733a"
+  },
+  {
+   "file": "data/raw/coinbase/ETH-USD/page_0046.json",
+   "bytes": 17487,
+   "sha256": "eeea5013200840b3600324b847a85c3d0214e719cc103092e900cae4987d4a22"
+  },
+  {
+   "file": "data/raw/coinbase/ETH-USD/page_0047.json",
+   "bytes": 17568,
+   "sha256": "83000f1a06325f7d3aeb6eac5a7045546376fe19ae80391cceb995d5a9721610"
+  },
+  {
+   "file": "data/raw/coinbase/ETH-USD/page_0048.json",
+   "bytes": 17490,
+   "sha256": "93a0a456dfde2d561c16efd37b37bc09b4e76c79f0bb75b7505582f81e395160"
+  },
+  {
+   "file": "data/raw/coinbase/ETH-USD/page_0049.json",
+   "bytes": 17558,
+   "sha256": "38bb1069ebecd7c87c083f6f2072847e32b6b848d1d7ffced38b0cd27834d369"
+  },
+  {
+   "file": "data/raw/coinbase/ETH-USD/page_0050.json",
+   "bytes": 17472,
+   "sha256": "52ae4bfb9de93d4f36a5bc409a379c242ce640e9925f3cbd8c8e98ccdd243e87"
+  },
+  {
+   "file": "data/raw/coinbase/ETH-USD/page_0051.json",
+   "bytes": 17431,
+   "sha256": "afd412dfce7ec9b809db278b23c1410bd146f103b0800ce9ad8938d85726a7ff"
+  },
+  {
+   "file": "data/raw/coinbase/ETH-USD/page_0052.json",
+   "bytes": 17527,
+   "sha256": "1f4a327273a678dfac38698ce4cfac25a4b10b577bfa16119ab90974b4b120f0"
+  },
+  {
+   "file": "data/raw/coinbase/ETH-USD/page_0053.json",
+   "bytes": 17488,
+   "sha256": "207f11fdd11268b9fa707ee4679547f654e217d01acb658065fc1aca07c97fcb"
+  },
+  {
+   "file": "data/raw/coinbase/ETH-USD/page_0054.json",
+   "bytes": 17489,
+   "sha256": "8157098e8cfbb3c0103d1ce9ee795a6f5e4af23cbc63fba02dc0e309ceae92e0"
+  },
+  {
+   "file": "data/raw/coinbase/ETH-USD/page_0055.json",
+   "bytes": 17499,
+   "sha256": "741cdc339891ebbc6595635cfb358af15dff7c9c6e0e6b711593eb24991e8ef0"
+  },
+  {
+   "file": "data/raw/coinbase/ETH-USD/page_0056.json",
+   "bytes": 17449,
+   "sha256": "f9b70ffd52fb8f8bf41e26ab08ed5dd37dcff65d254163cb0bb9f620319fcd0b"
+  },
+  {
+   "file": "data/raw/coinbase/ETH-USD/page_0057.json",
+   "bytes": 17470,
+   "sha256": "75eaecedae0c725cc008de743a65efd84c15176d619eb9d739ca0d1ed9af8100"
+  },
+  {
+   "file": "data/raw/coinbase/ETH-USD/page_0058.json",
+   "bytes": 17432,
+   "sha256": "5af97ad78d45fcce02cc6ee1d1e87442c6658208f957186be3729008fcc00bc6"
+  },
+  {
+   "file": "data/raw/coinbase/ETH-USD/page_0059.json",
+   "bytes": 17433,
+   "sha256": "511ba1ff3cbd92f66540d5913a0d9aa62e72d50954c0ca3ae6ec6ef6ebb9843b"
+  },
+  {
+   "file": "data/raw/coinbase/ETH-USD/page_0060.json",
+   "bytes": 17438,
+   "sha256": "94f05815a8bae5a7c371fd45c6535973f276518a278410f2a59bc4be2758db77"
+  },
+  {
+   "file": "data/raw/coinbase/ETH-USD/page_0061.json",
+   "bytes": 17449,
+   "sha256": "f3da07cd9b980630e3e286cd54487c4f4fad0dd99f8593d7962683cdbc367fc1"
+  },
+  {
+   "file": "data/raw/coinbase/ETH-USD/page_0062.json",
+   "bytes": 17493,
+   "sha256": "066aead4c2158736f1e1d7dd2d727ae9a0438c88beba5d592bcb1f6c698e864c"
+  },
+  {
+   "file": "data/raw/coinbase/ETH-USD/page_0063.json",
+   "bytes": 17424,
+   "sha256": "1e9b0558d5830f685b753d59fdbf5ea91ac8fd8b04ae0bbaff4c047926cd0553"
+  },
+  {
+   "file": "data/raw/coinbase/ETH-USD/page_0064.json",
+   "bytes": 17427,
+   "sha256": "cd2e5c632e0bb9f022daa51548280a4e40f157e06e4db4653c3d52b2f5d5d09d"
+  },
+  {
+   "file": "data/raw/coinbase/ETH-USD/page_0065.json",
+   "bytes": 17329,
+   "sha256": "5797715e3cfce42fc65191d61e4155d103fdfa883f94f61b168af04afd8378e9"
+  },
+  {
+   "file": "data/raw/coinbase/ETH-USD/page_0066.json",
+   "bytes": 17358,
+   "sha256": "fad52e91ca8b71a1b802708e552dcbaec03c1c35e14a269e34c3cf3daf78edb2"
+  },
+  {
+   "file": "data/raw/coinbase/ETH-USD/page_0067.json",
+   "bytes": 17381,
+   "sha256": "14a6f0f871fa8d71f1862967bb80b431454f12e947345d59e489a2c2dfc5d39f"
+  },
+  {
+   "file": "data/raw/coinbase/ETH-USD/page_0068.json",
+   "bytes": 17068,
+   "sha256": "636f3b2ee420637f8bfa5808000a32229d3db6508d18c76075d05d732c9347b6"
+  },
+  {
+   "file": "data/raw/coinbase/ETH-USD/page_0069.json",
+   "bytes": 17394,
+   "sha256": "f49ca1f100092a3135c33a2e3f4081beb0df0a082bcd8682b09bb8888679b7f9"
+  },
+  {
+   "file": "data/raw/coinbase/ETH-USD/page_0070.json",
+   "bytes": 17449,
+   "sha256": "e30b3fb50cb0e2d65d2d6031fc3d09adf9117dac31e97958528d7b9d1a566995"
+  },
+  {
+   "file": "data/raw/coinbase/ETH-USD/page_0071.json",
+   "bytes": 17362,
+   "sha256": "4dd5c201d0115c7c38cf41880ea67ca029d84cfaf9f657424fba45d311edca3f"
+  },
+  {
+   "file": "data/raw/coinbase/ETH-USD/page_0072.json",
+   "bytes": 17301,
+   "sha256": "2e6996feafea126a986c77fc65aceaa8bb7ae4238d4f9bd043e34122f6244954"
+  },
+  {
+   "file": "data/raw/coinbase/ETH-USD/page_0073.json",
+   "bytes": 17313,
+   "sha256": "17086b72420f5d00375cb86316a3e71cc4f48235ac0c0462a239809f88ebbf5c"
+  },
+  {
+   "file": "data/raw/coinbase/ETH-USD/page_0074.json",
+   "bytes": 17357,
+   "sha256": "693704a27aba457e2e06bae83103c79db5490c33e7361bada35960ca546e41cc"
+  },
+  {
+   "file": "data/raw/coinbase/ETH-USD/page_0075.json",
+   "bytes": 17340,
+   "sha256": "915777d1d7894b30fb81e992c5278e7664b3181cfd7feae9bbf4afdbe9cb8f9a"
+  },
+  {
+   "file": "data/raw/coinbase/ETH-USD/page_0076.json",
+   "bytes": 17518,
+   "sha256": "1652063be0feaed28af50fdc283135d0c34853069ee2f6ea68ef959c3076e466"
+  },
+  {
+   "file": "data/raw/coinbase/ETH-USD/page_0077.json",
+   "bytes": 17406,
+   "sha256": "b44911f28f4ee2609eba4f356583627d151c21936a8e92bdcb0e3a339ddaffe4"
+  },
+  {
+   "file": "data/raw/coinbase/ETH-USD/page_0078.json",
+   "bytes": 17434,
+   "sha256": "80c6ab5abcb8fd61f90895248eb012b6466da538befc1028ca148863431dcae1"
+  },
+  {
+   "file": "data/raw/coinbase/ETH-USD/page_0079.json",
+   "bytes": 17408,
+   "sha256": "899c3cc985b1b9cfef44a57bc940ec8071c3797028d9a4e0f12d550cc376a744"
+  },
+  {
+   "file": "data/raw/coinbase/ETH-USD/page_0080.json",
+   "bytes": 17449,
+   "sha256": "9ab4e27d9e409e79fd337fd9127b249aa4d74d5baf602e98aceb4ae7c367ae33"
+  },
+  {
+   "file": "data/raw/coinbase/ETH-USD/page_0081.json",
+   "bytes": 17389,
+   "sha256": "3d6070c489bb72ff626e8eff2c34790faaac4838e094588585c64dbfd3ed062f"
+  },
+  {
+   "file": "data/raw/coinbase/ETH-USD/page_0082.json",
+   "bytes": 17334,
+   "sha256": "69f5873cc597eb30380d54c677d61069c713fbb88cd844dcf44a9a9ac511cb99"
+  },
+  {
+   "file": "data/raw/coinbase/ETH-USD/page_0083.json",
+   "bytes": 17325,
+   "sha256": "83bb1be079fb951673a1492ecbb74c78ed75c0de60b0f8a383e25adf33550bff"
+  },
+  {
+   "file": "data/raw/coinbase/ETH-USD/page_0084.json",
+   "bytes": 17087,
+   "sha256": "a60c066dace065c5f25455c484c914f0a546ab8fca183c9ae910691730e82e80"
+  },
+  {
+   "file": "data/raw/coinbase/ETH-USD/page_0085.json",
+   "bytes": 17395,
+   "sha256": "a33887764472b5a04d56f7992b43e5b5f5a39af277dbbd4f1447ca0f8976fdca"
+  },
+  {
+   "file": "data/raw/coinbase/ETH-USD/page_0086.json",
+   "bytes": 17423,
+   "sha256": "39bda3f9a7d393be4b73bf30bcc44c9af11970142650d23abdc2a219e1d7430a"
+  },
+  {
+   "file": "data/raw/coinbase/ETH-USD/page_0087.json",
+   "bytes": 17376,
+   "sha256": "1650d9304228c161025936e3f017f1ec4f5ceec0f6a442fd3426a0622bf1c355"
+  },
+  {
+   "file": "data/raw/coinbase/ETH-USD/page_0088.json",
+   "bytes": 17377,
+   "sha256": "271840f6b605fe0aad2bc907c8397142ae4d42ab11aae1984443781b9f726229"
+  },
+  {
+   "file": "data/raw/coinbase/ETH-USD/page_0089.json",
+   "bytes": 17383,
+   "sha256": "02e5825c968395c73dbe7e68778555e5f15a0f5d850680d08ca284b06815b08c"
+  },
+  {
+   "file": "data/raw/coinbase/ETH-USD/page_0090.json",
+   "bytes": 17297,
+   "sha256": "0edc1271349eeb2f1ffcee77900d82ac9b57331ca77e781aaae4b1c002eb4511"
+  },
+  {
+   "file": "data/raw/coinbase/ETH-USD/page_0091.json",
+   "bytes": 17318,
+   "sha256": "371768161f0bb45093a07a6fd0993352e8babb825afc325af061aa37588fa42e"
+  },
+  {
+   "file": "data/raw/coinbase/ETH-USD/page_0092.json",
+   "bytes": 17392,
+   "sha256": "92d5757853cce12f269d262918d8380767e2433fb4966f378e4d916c2d9a301c"
+  },
+  {
+   "file": "data/raw/coinbase/ETH-USD/page_0093.json",
+   "bytes": 17385,
+   "sha256": "34abb883ee77b8dc25d50f92dc1ab50aed75140ec4056529b477d00dd8272160"
+  },
+  {
+   "file": "data/raw/coinbase/ETH-USD/page_0094.json",
+   "bytes": 17397,
+   "sha256": "f0a1045b3952a4bb32fd81eac070c383610933ca2c3ae7b7ac2bee3db69d95ae"
+  },
+  {
+   "file": "data/raw/coinbase/ETH-USD/page_0095.json",
+   "bytes": 17389,
+   "sha256": "0d6c678b31d9df33a41ae7a2ba0ef53e7b65d8a44d7b1a941347a6410b5fbddc"
+  },
+  {
+   "file": "data/raw/coinbase/ETH-USD/page_0096.json",
+   "bytes": 17420,
+   "sha256": "f415d42e83c1a2a158f239dd72d8d49be53baafe7467db9b8872d2ee704aef1b"
+  },
+  {
+   "file": "data/raw/coinbase/ETH-USD/page_0097.json",
+   "bytes": 17465,
+   "sha256": "01028dc330cd23807c69539c1230f7a9393081ec21fc1d9f6ff5c905d7d4a101"
+  },
+  {
+   "file": "data/raw/coinbase/ETH-USD/page_0098.json",
+   "bytes": 2788,
+   "sha256": "18155de5b101eb264eca101ac844cc7aee0c9243553f709f44275cf381528007"
+  },
+  {
+   "file": "data/raw/defillama/RETRIEVAL_LOG.tsv",
+   "bytes": 483,
+   "sha256": "4c8b7f78350252d15bc4a2689a6ad3d0ebc8a127d14fc59fa0a3f7652b073708"
+  },
+  {
+   "file": "data/raw/defillama/chart_native_usdc.json",
+   "bytes": 193137,
+   "sha256": "5c562e7ef63a30d595daac67f2942371b98d07a2866dd4ecd70aecc9ddd530c0"
+  },
+  {
+   "file": "data/raw/defillama/chart_usdc_e.json",
+   "bytes": 235174,
+   "sha256": "5aa1bbf38308373a00e5e6f6d292f7fb8ca0f0987c7c8afa28a848e7241a916a"
+  },
+  {
+   "file": "data/raw/defillama/pools_snapshot.json",
+   "bytes": 10964748,
+   "sha256": "48fee47ebe9470c2c09a8b76879caecf590f0e96a8987e49e0de06bbc9c08cc0"
+  },
+  {
+   "file": "data/raw/defillama_adapter_evidence/RETRIEVAL_LOG.tsv",
+   "bytes": 4628,
+   "sha256": "a7caf70b4d2e15ff5cd86bc74b12329f47ac95d5972f8492f71e433c05e949ca"
+  },
+  {
+   "file": "data/raw/defillama_adapter_evidence/aave-v3_index_03b47a004293.js",
+   "bytes": 10423,
+   "sha256": "6e64a56dc0d616ea2feff2261fbfa6b1ecf2d66da06d5ee009d150f11249a373"
+  },
+  {
+   "file": "data/raw/defillama_adapter_evidence/aave-v3_index_04bab22e688a.js",
+   "bytes": 7551,
+   "sha256": "d4e623b6452962ea08769b987b6f595d0660cea51c009ed1c5a63fde73bba0d6"
+  },
+  {
+   "file": "data/raw/defillama_adapter_evidence/aave-v3_index_22cd411350b3.js",
+   "bytes": 13808,
+   "sha256": "4e019c08e3a908dcf458958a9c1d9dd3e0daa86eb3c0c79d2edab1565b3dd5ff"
+  },
+  {
+   "file": "data/raw/defillama_adapter_evidence/aave-v3_index_3173abeb170b.js",
+   "bytes": 10899,
+   "sha256": "781fa1293a4d6c5f4e16db6a4991fd496f4b3c9f9973bd916f42c48dbec55ef5"
+  },
+  {
+   "file": "data/raw/defillama_adapter_evidence/aave-v3_index_395d7a1a6f21.js",
+   "bytes": 6805,
+   "sha256": "50d3b22d82f7b84bc0610a882c3d253acd54088963b2370b7c221c65ec4b9074"
+  },
+  {
+   "file": "data/raw/defillama_adapter_evidence/aave-v3_index_3b22a52d483b.js",
+   "bytes": 7480,
+   "sha256": "7ac0a7db4fa8ef9413a413ba937dbb7dd9d1e88ca1f857565c2485b9f88bb136"
+  },
+  {
+   "file": "data/raw/defillama_adapter_evidence/aave-v3_index_42ec40d6ddc6.js",
+   "bytes": 6743,
+   "sha256": "0ae5b5079443596821742fa7be58c8f7cfe16bea02e3f454cfb592ce1d3c14a3"
+  },
+  {
+   "file": "data/raw/defillama_adapter_evidence/aave-v3_index_4d3ff6cb4dd7.js",
+   "bytes": 13767,
+   "sha256": "6498cdfe1bd7d237ebd909d4bfe1c7d7590bc0163fb0145ceec305b03d1e9eea"
+  },
+  {
+   "file": "data/raw/defillama_adapter_evidence/aave-v3_index_6387427c97c5.js",
+   "bytes": 18105,
+   "sha256": "ab35fe5c071d0f691ef4b19320b1b942675cc5b539c32e5cf84a8ce5ba49e5ba"
+  },
+  {
+   "file": "data/raw/defillama_adapter_evidence/aave-v3_index_7f1523db861f.js",
+   "bytes": 11872,
+   "sha256": "2f6ccd59d4e53b9b507caad8e2f172833fc67755c788f33deab117e84dde5d70"
+  },
+  {
+   "file": "data/raw/defillama_adapter_evidence/aave-v3_index_a88b70c12f99.js",
+   "bytes": 7793,
+   "sha256": "9f5c28003bc0ab156c042a81830f4ada94d8a7ea33a0a2bf062de319bca55521"
+  },
+  {
+   "file": "data/raw/defillama_adapter_evidence/aave-v3_index_ae16804e6345.js",
+   "bytes": 17304,
+   "sha256": "27840c5dc0704af52e64b6c4946f6fcbb28971ca75ec2545fd24c2887d53ab1b"
+  },
+  {
+   "file": "data/raw/defillama_adapter_evidence/aave-v3_index_ce9bc01e61f9.js",
+   "bytes": 11001,
+   "sha256": "bdc21befd72b500d1e560ac1201252f52739de59b0fa4ee80705ed7dc014096b"
+  },
+  {
+   "file": "data/raw/defillama_adapter_evidence/aave-v3_index_d78ab8ae6466.js",
+   "bytes": 10108,
+   "sha256": "70c26a3a7b86a5362b8d22f7abbe15fb22d01b21f11978b7dcb22933c30d7181"
+  },
+  {
+   "file": "data/raw/defillama_adapter_evidence/aave-v3_index_master.js",
+   "bytes": 18105,
+   "sha256": "ab35fe5c071d0f691ef4b19320b1b942675cc5b539c32e5cf84a8ce5ba49e5ba"
+  },
+  {
+   "file": "data/raw/defillama_adapter_evidence/commits_aave-v3_p1.json",
+   "bytes": 286898,
+   "sha256": "bb4cbf9f0828a6445c6b8f3f0a342339d9495c2183eeca61ffd50f83634f46c1"
+  },
+  {
+   "file": "data/raw/defillama_adapter_evidence/commits_aave-v3_p2.json",
+   "bytes": 5,
+   "sha256": "2ba33ca0557f1bb5b7ba88d67f9d0093c7185a36ec51fe2b7bd9372d3e001d6d"
+  },
+  {
+   "file": "data/raw/defillama_adapter_evidence/controller_yield.js",
+   "bytes": 3340,
+   "sha256": "f4403286d09fcd6fc514de505e893af4c77c5847fc50d5ee9a161e02a0af276f"
+  },
+  {
+   "file": "data/raw/defillama_adapter_evidence/repo_tree_master.json",
+   "bytes": 997876,
+   "sha256": "5436edfb33f6d9a383c44eae2576ea4440fa1b598206b23716394ad2795b51fb"
+  },
+  {
+   "file": "data/raw/defillama_adapter_evidence/serverless.yml",
+   "bytes": 5967,
+   "sha256": "515a26cb16d4272f077be37ca889df2c0511932c287604162766fc76fe6425bc"
+  },
+  {
+   "file": "data/raw/defillama_adapter_evidence/triggerAdaptor.js",
+   "bytes": 16389,
+   "sha256": "c8f050882f68507f28f5e18e023699a6b01f71039489759833523e2d120f47c9"
+  },
+  {
+   "file": "data/raw/defillama_adapter_evidence/yield-server_README.md",
+   "bytes": 10529,
+   "sha256": "a079c335cea26859d46e2f31304c8c25b6826630d2e90f0f6ad0b1316948b114"
+  },
+  {
+   "file": "data/raw/hyperliquid/BTC_pages.ndjson",
+   "bytes": 23412,
+   "sha256": "ad1d9b8a5d6ce8908fd093574e75ad29e060849467279b7c5c0210a2e966586a"
+  },
+  {
+   "file": "data/raw/hyperliquid/ETH_pages.ndjson",
+   "bytes": 23806,
+   "sha256": "edf03266cc0f6efc6e983d3ef4100ba3a563b4a499e318bf4f7f785a33272b48"
+  },
+  {
+   "file": "data/raw/hyperliquid/BTC/page_0000.json",
+   "bytes": 44939,
+   "sha256": "83bc258aa86e192aee5c21bd27ec53a2acb9abda8924175453692d84829cceaa"
+  },
+  {
+   "file": "data/raw/hyperliquid/BTC/page_0001.json",
+   "bytes": 45075,
+   "sha256": "a22f9e8ec4afae4347eafeb3ee3cfe907f0a893326c948b9ccbc11aa0ffab3d0"
+  },
+  {
+   "file": "data/raw/hyperliquid/BTC/page_0002.json",
+   "bytes": 45604,
+   "sha256": "b5d1bdee38aad7f5b328c9e46c7ba0ee038b1ac0fe161decff8009a479c1b921"
+  },
+  {
+   "file": "data/raw/hyperliquid/BTC/page_0003.json",
+   "bytes": 45460,
+   "sha256": "f62d2551ae8fef823cb5c904d8558d8aff79e6cd329fa9e492a9ec9f24183aaf"
+  },
+  {
+   "file": "data/raw/hyperliquid/BTC/page_0004.json",
+   "bytes": 44240,
+   "sha256": "5d16143ddad4ebc5334e1251d6496a2b6b35197330730e8564aa511ba62c1153"
+  },
+  {
+   "file": "data/raw/hyperliquid/BTC/page_0005.json",
+   "bytes": 44167,
+   "sha256": "db92219a6bb570321ba556af5b2fa9261719c9dab4f7b3beb8ec3ba6805152c4"
+  },
+  {
+   "file": "data/raw/hyperliquid/BTC/page_0006.json",
+   "bytes": 44700,
+   "sha256": "1b1d3cc140dbc40af2a91060eb47c246aaa78661e52163176d1e207310912864"
+  },
+  {
+   "file": "data/raw/hyperliquid/BTC/page_0007.json",
+   "bytes": 44084,
+   "sha256": "783fe8f68b7793100d6d0a813a548e0f4add0ba2dbf6fbca03c881e4ae91df4c"
+  },
+  {
+   "file": "data/raw/hyperliquid/BTC/page_0008.json",
+   "bytes": 44474,
+   "sha256": "ac2dda04e813d3f1b33768778c5ba6c6cd91db525df39125a670b4ec3c090a2c"
+  },
+  {
+   "file": "data/raw/hyperliquid/BTC/page_0009.json",
+   "bytes": 44663,
+   "sha256": "3e88d35b8ca162f366d277601b4de09772c23388288372d296822dfd0f500b63"
+  },
+  {
+   "file": "data/raw/hyperliquid/BTC/page_0010.json",
+   "bytes": 44425,
+   "sha256": "bc7d64e96ff07c5356f937e130f9283300d22e2ca10c31bcff1b35924dd8209b"
+  },
+  {
+   "file": "data/raw/hyperliquid/BTC/page_0011.json",
+   "bytes": 44262,
+   "sha256": "d205dcf439a4e05f87c77997003359adfe9ab6d4b9246834b1e3b5ffa62f2a8e"
+  },
+  {
+   "file": "data/raw/hyperliquid/BTC/page_0012.json",
+   "bytes": 44797,
+   "sha256": "e5b2f9faecaa6f481bfc51b5989185856199b64e9ec9e5174642783ed58b81a0"
+  },
+  {
+   "file": "data/raw/hyperliquid/BTC/page_0013.json",
+   "bytes": 44432,
+   "sha256": "0387690cbaf41d0202e987ffa2addde30b79437ac2e4de41d8ae6eaee8f3fc76"
+  },
+  {
+   "file": "data/raw/hyperliquid/BTC/page_0014.json",
+   "bytes": 44218,
+   "sha256": "9784e07b812e010d783b1e25995d27b596dc942682a6a41a4c2edb48abdc1dd7"
+  },
+  {
+   "file": "data/raw/hyperliquid/BTC/page_0015.json",
+   "bytes": 44003,
+   "sha256": "562bbb932e57b62839ef87bfabb796fb2be4b8a4c1389072f5b61366c023caa8"
+  },
+  {
+   "file": "data/raw/hyperliquid/BTC/page_0016.json",
+   "bytes": 44207,
+   "sha256": "b75f3dc4046d001e28309358fa9ca3c3e6e8a9dd2bec42adb03ac286a2903afb"
+  },
+  {
+   "file": "data/raw/hyperliquid/BTC/page_0017.json",
+   "bytes": 44005,
+   "sha256": "a22e30b0920db7f42789ce9d9d86f9f4bb0681d3c3d823e6571d5e9f83523f65"
+  },
+  {
+   "file": "data/raw/hyperliquid/BTC/page_0018.json",
+   "bytes": 44223,
+   "sha256": "e276580553dd649858ed3dbd9e24c67f11ae47722cad28233df254e5083c99c0"
+  },
+  {
+   "file": "data/raw/hyperliquid/BTC/page_0019.json",
+   "bytes": 43958,
+   "sha256": "5a5a91daa00568dc97cdf1ca24030a404c4738d6e3c202796caacc346e2e283c"
+  },
+  {
+   "file": "data/raw/hyperliquid/BTC/page_0020.json",
+   "bytes": 44029,
+   "sha256": "132f5221be616a012f61df6475fe3847657637760f7899ee91c8062038ba8f64"
+  },
+  {
+   "file": "data/raw/hyperliquid/BTC/page_0021.json",
+   "bytes": 44205,
+   "sha256": "53ba9e71c7c6d5089921be515c5824c63f83e9b0f3c9676847f83efec0a0bc31"
+  },
+  {
+   "file": "data/raw/hyperliquid/BTC/page_0022.json",
+   "bytes": 44084,
+   "sha256": "c7690f615f38421764a58aabf731213d3a75a49ff52ace608d35107975a0c4ec"
+  },
+  {
+   "file": "data/raw/hyperliquid/BTC/page_0023.json",
+   "bytes": 43850,
+   "sha256": "483a2fafd1b9b61caadf79234d9612ceec289c26b36460bedee7489acf538c29"
+  },
+  {
+   "file": "data/raw/hyperliquid/BTC/page_0024.json",
+   "bytes": 44595,
+   "sha256": "f608bd82d496eb8dffa354c6d7a659889867f095efc9b5912c8340c221b1f4ac"
+  },
+  {
+   "file": "data/raw/hyperliquid/BTC/page_0025.json",
+   "bytes": 44540,
+   "sha256": "80095a0cba60d3c1872cb4943abd881dccb14c136ad1ef30d9afbb3a79cdc9ee"
+  },
+  {
+   "file": "data/raw/hyperliquid/BTC/page_0026.json",
+   "bytes": 44034,
+   "sha256": "db77103b69fd652507a533b5d7b7cb0bc3cc9e495d407a9d28ca562311baae8d"
+  },
+  {
+   "file": "data/raw/hyperliquid/BTC/page_0027.json",
+   "bytes": 44045,
+   "sha256": "7c503f728b5a2b00f8e229736cf7719d71582df48568b203e1393aa590cfae90"
+  },
+  {
+   "file": "data/raw/hyperliquid/BTC/page_0028.json",
+   "bytes": 43824,
+   "sha256": "2d16439194fa37a9e67de1ae45e96fb928a67d89ebdd4c904ac65c0fecc778a7"
+  },
+  {
+   "file": "data/raw/hyperliquid/BTC/page_0029.json",
+   "bytes": 44271,
+   "sha256": "94082fd17d7da5838e664436f98c509b26d13a595e661ab5aa3f5976ddcfcd14"
+  },
+  {
+   "file": "data/raw/hyperliquid/BTC/page_0030.json",
+   "bytes": 44928,
+   "sha256": "144b10b059502f2bc3421b1a5c0ea7ca39ac7248a4f1dd4491c00fccae3af786"
+  },
+  {
+   "file": "data/raw/hyperliquid/BTC/page_0031.json",
+   "bytes": 44556,
+   "sha256": "c6cbe92447dc95510e8925af63beda3fc1f46360e6aeecfc805549ea562b14e0"
+  },
+  {
+   "file": "data/raw/hyperliquid/BTC/page_0032.json",
+   "bytes": 44403,
+   "sha256": "9d15bfec1b37e4f2ba23e8f83f6e6cce0d198a479d87bf870446fdaaf94a2374"
+  },
+  {
+   "file": "data/raw/hyperliquid/BTC/page_0033.json",
+   "bytes": 44160,
+   "sha256": "2af828265001d2da5982f921666c1dcd574a9aa9298ceb726df5c5ac06c671f6"
+  },
+  {
+   "file": "data/raw/hyperliquid/BTC/page_0034.json",
+   "bytes": 44292,
+   "sha256": "1e6b16a00fe24e6c0473d3992a0a4c967b13fded3d6db2f413b40b7d08f4454d"
+  },
+  {
+   "file": "data/raw/hyperliquid/BTC/page_0035.json",
+   "bytes": 44314,
+   "sha256": "95a439d497d0597f37da8ac36d5a68a97a1dfd268331757302f6cbf5a1073d12"
+  },
+  {
+   "file": "data/raw/hyperliquid/BTC/page_0036.json",
+   "bytes": 44340,
+   "sha256": "7d7f069474ca34547c56da89bce1ab032d36ccc9cbca8dfead351ebc998a000e"
+  },
+  {
+   "file": "data/raw/hyperliquid/BTC/page_0037.json",
+   "bytes": 44236,
+   "sha256": "ccfc58b9cbaae5187fdef9e069afac498e1947c83cced0edef61f2c097526ab0"
+  },
+  {
+   "file": "data/raw/hyperliquid/BTC/page_0038.json",
+   "bytes": 43863,
+   "sha256": "44bc52d40be415054f54b322d72e4ceeb9deddcc8f864dd64d96e0aa1f7d498f"
+  },
+  {
+   "file": "data/raw/hyperliquid/BTC/page_0039.json",
+   "bytes": 44043,
+   "sha256": "5346f51dff206b3afe7a5e3d937e8cfd444cc8ed739883f3f6189f9070ae67d4"
+  },
+  {
+   "file": "data/raw/hyperliquid/BTC/page_0040.json",
+   "bytes": 44291,
+   "sha256": "3ed923e6dbd182a4a57049c6b7ff124baf7659b3232164a04e5aaee21dd2e962"
+  },
+  {
+   "file": "data/raw/hyperliquid/BTC/page_0041.json",
+   "bytes": 43896,
+   "sha256": "27acc24a1db4c62d372fc51b559b12afad78cd521cb49480692d1d323021efb2"
+  },
+  {
+   "file": "data/raw/hyperliquid/BTC/page_0042.json",
+   "bytes": 44505,
+   "sha256": "0408357e41acec8de7c8296e0b01cd90896a4c4811bae3a37db022876a4b91ac"
+  },
+  {
+   "file": "data/raw/hyperliquid/BTC/page_0043.json",
+   "bytes": 44866,
+   "sha256": "45340eab5dd5b8f34b7aeb1182d7f7c29da8d6adc96e325e80273d0adea5989a"
+  },
+  {
+   "file": "data/raw/hyperliquid/BTC/page_0044.json",
+   "bytes": 44242,
+   "sha256": "ed8cfdd5b2cfbff94cc85962e9b4534985a7d548a99d7f50d32dead6e8d76fd7"
+  },
+  {
+   "file": "data/raw/hyperliquid/BTC/page_0045.json",
+   "bytes": 44791,
+   "sha256": "4385cb7d45e5f97bc759d9318f822475bf5784b73341d2871bda6f043ced2fa8"
+  },
+  {
+   "file": "data/raw/hyperliquid/BTC/page_0046.json",
+   "bytes": 45177,
+   "sha256": "1f92b4ca32f66d1fad946e0bbda85620c0eaa2fa7d8f897ad43601d006cf0224"
+  },
+  {
+   "file": "data/raw/hyperliquid/BTC/page_0047.json",
+   "bytes": 45396,
+   "sha256": "f54601739ae349d48c1cdd8c2c3e2bffe209dd0791e1b99156b053a2707b3e8d"
+  },
+  {
+   "file": "data/raw/hyperliquid/BTC/page_0048.json",
+   "bytes": 45273,
+   "sha256": "37f710711d44f871da60be26a6da1ea48ca45a547e11ed3b1a1fc9a89865e0f5"
+  },
+  {
+   "file": "data/raw/hyperliquid/BTC/page_0049.json",
+   "bytes": 45421,
+   "sha256": "b78b0c85b4b8e070ed9095cdfeb2bdb8c273eccf4c32eb19600f8946cb5253c7"
+  },
+  {
+   "file": "data/raw/hyperliquid/BTC/page_0050.json",
+   "bytes": 45166,
+   "sha256": "17d94920b715234cea5af5780c665b90fef34364a3eaa5d7403db492974c5041"
+  },
+  {
+   "file": "data/raw/hyperliquid/BTC/page_0051.json",
+   "bytes": 44953,
+   "sha256": "d1630651d6d6ecd3dbd79c5e2a2599175862e16dc3b30f50ea5dd47ba0b43d98"
+  },
+  {
+   "file": "data/raw/hyperliquid/BTC/page_0052.json",
+   "bytes": 45065,
+   "sha256": "95c30c791e415e6cf0be54883680f829521cb9677d05faae313bda63ad77707d"
+  },
+  {
+   "file": "data/raw/hyperliquid/BTC/page_0053.json",
+   "bytes": 43945,
+   "sha256": "65c213ce4d0aacf0bd16139bcf4ce90d2c5fbd04c463c84f4745ffa9a0576d7c"
+  },
+  {
+   "file": "data/raw/hyperliquid/BTC/page_0054.json",
+   "bytes": 44870,
+   "sha256": "eefe8ce4bc8997f4f4a0380c0c6d12b75dc8979e63998424d0ffdbee37f2a7a3"
+  },
+  {
+   "file": "data/raw/hyperliquid/BTC/page_0055.json",
+   "bytes": 44285,
+   "sha256": "ecb7dc2ebc5961a8830af2e2cde463da80777d8633223e4b3df60b64b0242a00"
+  },
+  {
+   "file": "data/raw/hyperliquid/BTC/page_0056.json",
+   "bytes": 44409,
+   "sha256": "405ceacbab62c0e4976ebadde1a9e9fa2d61da19a9f948f99fc8fe7ba4bb580a"
+  },
+  {
+   "file": "data/raw/hyperliquid/BTC/page_0057.json",
+   "bytes": 44596,
+   "sha256": "5bb80f2514af296bcd8907baf967b818ae6e44ca8262d49399e6dd5aeb24b12e"
+  },
+  {
+   "file": "data/raw/hyperliquid/BTC/page_0058.json",
+   "bytes": 39490,
+   "sha256": "2244ef0954cab9c98e4ab3056108d22e6dd664232499b1298bbf91340ccc30c1"
+  },
+  {
+   "file": "data/raw/hyperliquid/ETH/page_0000.json",
+   "bytes": 44900,
+   "sha256": "ab9477b4f26941aa3b609a36217dc9946c447f0232d411b0854e8e342b6c196a"
+  },
+  {
+   "file": "data/raw/hyperliquid/ETH/page_0001.json",
+   "bytes": 44870,
+   "sha256": "f98bceae1deb28e5768134b95246a658d2ebcdc6ac3f0e3624a2f8b573addddd"
+  },
+  {
+   "file": "data/raw/hyperliquid/ETH/page_0002.json",
+   "bytes": 44974,
+   "sha256": "35d940d2c4ffa2deb1b500ca60bb271e17aea8aae79525ed295cece9e3edecc1"
+  },
+  {
+   "file": "data/raw/hyperliquid/ETH/page_0003.json",
+   "bytes": 44853,
+   "sha256": "00b7aa6ae309c759247139c1a3411994f00334529242efc151d24903a943f9c1"
+  },
+  {
+   "file": "data/raw/hyperliquid/ETH/page_0004.json",
+   "bytes": 44130,
+   "sha256": "221d7eca7eece4eb599541caa8dfba5f46b67bff7098a98e86200eabdfe83648"
+  },
+  {
+   "file": "data/raw/hyperliquid/ETH/page_0005.json",
+   "bytes": 44398,
+   "sha256": "26c2b756bf50ee2edefc94594d2ac0f652d481ae3b596fe29faa585c626f5e53"
+  },
+  {
+   "file": "data/raw/hyperliquid/ETH/page_0006.json",
+   "bytes": 44751,
+   "sha256": "8f706e5dcd6c2df73a645dc9658cfc13d691f2322c2fbbe9fc899fc1a08265f4"
+  },
+  {
+   "file": "data/raw/hyperliquid/ETH/page_0007.json",
+   "bytes": 44365,
+   "sha256": "23011b2a1242846e88006f1bef57f8bf6c6c70bd84e5e763542b4029787a695c"
+  },
+  {
+   "file": "data/raw/hyperliquid/ETH/page_0008.json",
+   "bytes": 44635,
+   "sha256": "0d42c5b5ab7f0538d9b8ce77fc1c4e4e74a36482574ce3b34d955f19236b53c5"
+  },
+  {
+   "file": "data/raw/hyperliquid/ETH/page_0009.json",
+   "bytes": 44384,
+   "sha256": "aa7acdd89f0505afd18595a26c0e98e430477ff6baf68809e79b5aff48ba3239"
+  },
+  {
+   "file": "data/raw/hyperliquid/ETH/page_0010.json",
+   "bytes": 44292,
+   "sha256": "2df38466a97d5bc22d13d85f0bb0a533445f2190bda3f7ea0eaaa29016b5ea79"
+  },
+  {
+   "file": "data/raw/hyperliquid/ETH/page_0011.json",
+   "bytes": 44478,
+   "sha256": "e253e2f6af350d4fbf1125487713c23ea80bb88a45c27652a307e4fb31dd9e93"
+  },
+  {
+   "file": "data/raw/hyperliquid/ETH/page_0012.json",
+   "bytes": 44784,
+   "sha256": "3680422dda8dd70f548cd115bc568f11ee32d3d7d5d594a932d24d31557357e6"
+  },
+  {
+   "file": "data/raw/hyperliquid/ETH/page_0013.json",
+   "bytes": 44448,
+   "sha256": "c20015a4d29888427571e7d8e522a2538bae67af2cfd6ac2ab7a615a1e18d7ce"
+  },
+  {
+   "file": "data/raw/hyperliquid/ETH/page_0014.json",
+   "bytes": 44063,
+   "sha256": "29d81fbf879e589c381941bb5a0bea1ee823da5b533595ae8b11398238a6f69d"
+  },
+  {
+   "file": "data/raw/hyperliquid/ETH/page_0015.json",
+   "bytes": 44374,
+   "sha256": "e1b665be20bbd8875e97b36d5766d1a36ac8ea5b87a531caaa449d62b787d096"
+  },
+  {
+   "file": "data/raw/hyperliquid/ETH/page_0016.json",
+   "bytes": 44418,
+   "sha256": "1e882c089af8309cc8195f8a1376ee3c729464e06f5b115e6f6ccd338f387261"
+  },
+  {
+   "file": "data/raw/hyperliquid/ETH/page_0017.json",
+   "bytes": 44027,
+   "sha256": "56ccacad71ac8e01fc7e1c0a98709e7b79c7afca3ec36ea8146d805e9786c482"
+  },
+  {
+   "file": "data/raw/hyperliquid/ETH/page_0018.json",
+   "bytes": 44119,
+   "sha256": "b5213a64bccef1fc85f4541a40b91475f721319bcc4868eb1cd6f298cd1861a7"
+  },
+  {
+   "file": "data/raw/hyperliquid/ETH/page_0019.json",
+   "bytes": 44411,
+   "sha256": "7a27144f1928f5222d7d93b998d64173e6fd1bcfcf2de871178bbd93bcd0319a"
+  },
+  {
+   "file": "data/raw/hyperliquid/ETH/page_0020.json",
+   "bytes": 44460,
+   "sha256": "c04ebdf384dd99f42d155ec446cdfb780b56bd6da7ad5b72900bef8c4fc045aa"
+  },
+  {
+   "file": "data/raw/hyperliquid/ETH/page_0021.json",
+   "bytes": 44365,
+   "sha256": "c0f62473ca47a6f98282b1e3bea350c65eca7fb0c23bd9a19242c7a49fda36f8"
+  },
+  {
+   "file": "data/raw/hyperliquid/ETH/page_0022.json",
+   "bytes": 44245,
+   "sha256": "9e9a9c3e10cc3b2e34f8b6168dc4c1eb9b3edfbb58b12321f69beafc89eaf37f"
+  },
+  {
+   "file": "data/raw/hyperliquid/ETH/page_0023.json",
+   "bytes": 44075,
+   "sha256": "170bb4c6722ebf9d18e5e535e572e14dbbfa694755f646dede47c39a4bb25d3d"
+  },
+  {
+   "file": "data/raw/hyperliquid/ETH/page_0024.json",
+   "bytes": 44694,
+   "sha256": "00e0db709ce78cf1de45a1385aa6d37341a3198b703c4801968afadc89bb1b6c"
+  },
+  {
+   "file": "data/raw/hyperliquid/ETH/page_0025.json",
+   "bytes": 44617,
+   "sha256": "08e3704ee8fd17d9b472d09e3e8d68bd3688bb8dc1cc8b0bfbaa00164e7e7b0c"
+  },
+  {
+   "file": "data/raw/hyperliquid/ETH/page_0026.json",
+   "bytes": 44100,
+   "sha256": "696fdd8a1c332df0af86619aff978a3fd514138e1665a11f988dfd670526e610"
+  },
+  {
+   "file": "data/raw/hyperliquid/ETH/page_0027.json",
+   "bytes": 44039,
+   "sha256": "ec9751103cf31ea9bce97ecf172d05dbef53f09a5b21d81ddef40c0972f73bd8"
+  },
+  {
+   "file": "data/raw/hyperliquid/ETH/page_0028.json",
+   "bytes": 44277,
+   "sha256": "f7de54418ce3a11d7073e4ee92cbc8c2993316d9ed50268b1954f9a3b7943301"
+  },
+  {
+   "file": "data/raw/hyperliquid/ETH/page_0029.json",
+   "bytes": 44844,
+   "sha256": "651186d6f2097565c6c5befdf1bf697431706dbe1d1395773ae7c2e8d58635f5"
+  },
+  {
+   "file": "data/raw/hyperliquid/ETH/page_0030.json",
+   "bytes": 45058,
+   "sha256": "b10c2c281e559c57911d058d3e55baa9ac48f3ec4506c95c1aa9f5c272e6a566"
+  },
+  {
+   "file": "data/raw/hyperliquid/ETH/page_0031.json",
+   "bytes": 45564,
+   "sha256": "b03abcb6fb2b8247c1b25ad032fcde19a9bf94964db700d6e103e8e5da47de6b"
+  },
+  {
+   "file": "data/raw/hyperliquid/ETH/page_0032.json",
+   "bytes": 44936,
+   "sha256": "49d22fb033eaa9a881c7d5a79b22cdc8f79a7d3d8352b5c2b8e70eb69e9980e2"
+  },
+  {
+   "file": "data/raw/hyperliquid/ETH/page_0033.json",
+   "bytes": 44022,
+   "sha256": "27f2c6081b19a8cd953ea8e1a6e1f2422d5a3bedeafec2ad4ceb0368f438f229"
+  },
+  {
+   "file": "data/raw/hyperliquid/ETH/page_0034.json",
+   "bytes": 44388,
+   "sha256": "2711cf8e1a8422cd1cdb4e2191a0228ae496d8a456446820a09770adc4c61485"
+  },
+  {
+   "file": "data/raw/hyperliquid/ETH/page_0035.json",
+   "bytes": 44517,
+   "sha256": "9191ab80a353e338ab236e31db9b3be0c9cf6e3ea7ce17b6b5ced91a4a808f8e"
+  },
+  {
+   "file": "data/raw/hyperliquid/ETH/page_0036.json",
+   "bytes": 44361,
+   "sha256": "6fc6360b2eb7a624fb8044321421afb1fc80d1711dcd6b36a84820c9ed6f8313"
+  },
+  {
+   "file": "data/raw/hyperliquid/ETH/page_0037.json",
+   "bytes": 44424,
+   "sha256": "caaeebf2853ed0d509b920f4b7e897673bbc03c0de96c93c3588628391252032"
+  },
+  {
+   "file": "data/raw/hyperliquid/ETH/page_0038.json",
+   "bytes": 44468,
+   "sha256": "32661dba242d5563450b1e385f3571f67ce4148ef18530a5d7ea10040f7f54dd"
+  },
+  {
+   "file": "data/raw/hyperliquid/ETH/page_0039.json",
+   "bytes": 44285,
+   "sha256": "0ad8ca737ded005732f62ea1e62ecc1f919ab613aa39a9358a09ec6aa12df524"
+  },
+  {
+   "file": "data/raw/hyperliquid/ETH/page_0040.json",
+   "bytes": 44479,
+   "sha256": "b7727bbafdcf03839fabbca27eda8be21f6179f5780683c267d5b4c5a4ee2132"
+  },
+  {
+   "file": "data/raw/hyperliquid/ETH/page_0041.json",
+   "bytes": 44454,
+   "sha256": "4a4b9491ccfb364a9d2a1911052fdbbd56fd16a96cb57ca3e9c0a095f36eecf1"
+  },
+  {
+   "file": "data/raw/hyperliquid/ETH/page_0042.json",
+   "bytes": 44239,
+   "sha256": "0ed069098b6e208abe6136a1b6e21ed194572239e89d40a4b5c3136f1781085d"
+  },
+  {
+   "file": "data/raw/hyperliquid/ETH/page_0043.json",
+   "bytes": 44214,
+   "sha256": "101db531dbd25530e742aa25d718b9187575f14d326613de95dace430ef03637"
+  },
+  {
+   "file": "data/raw/hyperliquid/ETH/page_0044.json",
+   "bytes": 44365,
+   "sha256": "8c8b0648f4dc554b7d6320b1d4b0ebbedcea80ad59d2cae0138fa05106adab2f"
+  },
+  {
+   "file": "data/raw/hyperliquid/ETH/page_0045.json",
+   "bytes": 44715,
+   "sha256": "a71de12400359640931adcb433014d3913d5eaa97794c4ac38add821b38bc220"
+  },
+  {
+   "file": "data/raw/hyperliquid/ETH/page_0046.json",
+   "bytes": 45084,
+   "sha256": "945d746ee52c09960fcc17815cbbbdba3645d9079575f3e8c1041becbb4f8c13"
+  },
+  {
+   "file": "data/raw/hyperliquid/ETH/page_0047.json",
+   "bytes": 45223,
+   "sha256": "1c5e413b590426bc8f6cc65d593a2d83ab5d97396d2c1b9f6d1f24c9dfa9655d"
+  },
+  {
+   "file": "data/raw/hyperliquid/ETH/page_0048.json",
+   "bytes": 45213,
+   "sha256": "3be832ca78667d2222730f1b870b1ebba210d8356cc1475a1a8830bcb27f462b"
+  },
+  {
+   "file": "data/raw/hyperliquid/ETH/page_0049.json",
+   "bytes": 45502,
+   "sha256": "60d1429038f60c7407769c8de8806f7efbfa48f21054a46add9331f3512e5c79"
+  },
+  {
+   "file": "data/raw/hyperliquid/ETH/page_0050.json",
+   "bytes": 44751,
+   "sha256": "c1e3bdb7c4a066df1f0efc10cacb47bdca4572b8d941ddc90d4a3914cb6bde9a"
+  },
+  {
+   "file": "data/raw/hyperliquid/ETH/page_0051.json",
+   "bytes": 44745,
+   "sha256": "41521d8ccd546f7dc63f4a35a3776f6dc4f6844786f08209ec53b1cbd70e5c4c"
+  },
+  {
+   "file": "data/raw/hyperliquid/ETH/page_0052.json",
+   "bytes": 44964,
+   "sha256": "ff47b2e28169f4789e2a60acffb4f67fc5edd9700cb17372ab7fa0c17628e62c"
+  },
+  {
+   "file": "data/raw/hyperliquid/ETH/page_0053.json",
+   "bytes": 43747,
+   "sha256": "6a19a83c0b8c75bfe319328a18cc50f4fe0360fed5b9aeb396b5710478176ccc"
+  },
+  {
+   "file": "data/raw/hyperliquid/ETH/page_0054.json",
+   "bytes": 44797,
+   "sha256": "30a82a20c465083b33f5d7410f61ac0ebe13adab7dd7a7a36cfc7e37b76cd2ff"
+  },
+  {
+   "file": "data/raw/hyperliquid/ETH/page_0055.json",
+   "bytes": 44247,
+   "sha256": "83b34e8f73ba50cfdd7a4dd3d601051325f118f66d7fe0a176bb75f2856c33a5"
+  },
+  {
+   "file": "data/raw/hyperliquid/ETH/page_0056.json",
+   "bytes": 44201,
+   "sha256": "0d21512e5f65a9f8c35c8e7aab96fbf72f005dd1ae70ef4ae91933483555b501"
+  },
+  {
+   "file": "data/raw/hyperliquid/ETH/page_0057.json",
+   "bytes": 44147,
+   "sha256": "b5a254a222eafac72cab348270ac1922eafe6fc056d59ab96f24c02c9df949c5"
+  },
+  {
+   "file": "data/raw/hyperliquid/ETH/page_0058.json",
+   "bytes": 39826,
+   "sha256": "b7c814db668b13dcdf8a29fd3df81eb6240dae73d2dbcc56b2e4ff126a58ccb4"
+  },
+  {
+   "file": "data/raw/hyperliquid/ETH/page_0059.json",
+   "bytes": 92,
+   "sha256": "8b978e749944d6e2b322ea8f0bd73936ffc2340c48d825077d557d65fd11845b"
+  }
+ ]
+}

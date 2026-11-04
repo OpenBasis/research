@@ -1,0 +1,124 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='1600' height='640' viewBox='0 0 1600 640'>
+<rect x='0' y='0' width='1600' height='640' fill='white'/>
+<text x='24' y='28' font-family='Helvetica,Arial,sans-serif' font-size='18' fill='#222'>F2. Calendar-month funding totals per $1 notional, ETH and BTC, completeness-labeled</text>
+<text x='24' y='50' font-family='Helvetica,Arial,sans-serif' font-size='13' fill='#555'>Solid bars: COMPLETE calendar months. Outlined dashed bars: INCOMPLETE months (window-partial or missing hours) - observed subtotal only, no total claimed. Positive = a short receives. Rate description; not compounded APY.</text>
+<rect x='70.00' y='90.00' width='1500.00' height='450.00' fill='none' stroke='#999' stroke-width='1'/>
+<line x1='70.00' y1='520.07' x2='1570.00' y2='520.07' stroke='#eee' stroke-width='0.6'/>
+<text x='64.00' y='524.07' font-family='Helvetica,Arial,sans-serif' font-size='11' fill='#555' text-anchor='end'>-0.5%</text>
+<line x1='70.00' y1='488.22' x2='1570.00' y2='488.22' stroke='#bbb' stroke-width='1.2'/>
+<text x='64.00' y='492.22' font-family='Helvetica,Arial,sans-serif' font-size='11' fill='#555' text-anchor='end'>0.0%</text>
+<line x1='70.00' y1='456.37' x2='1570.00' y2='456.37' stroke='#eee' stroke-width='0.6'/>
+<text x='64.00' y='460.37' font-family='Helvetica,Arial,sans-serif' font-size='11' fill='#555' text-anchor='end'>0.5%</text>
+<line x1='70.00' y1='424.52' x2='1570.00' y2='424.52' stroke='#eee' stroke-width='0.6'/>
+<text x='64.00' y='428.52' font-family='Helvetica,Arial,sans-serif' font-size='11' fill='#555' text-anchor='end'>1.0%</text>
+<line x1='70.00' y1='392.67' x2='1570.00' y2='392.67' stroke='#eee' stroke-width='0.6'/>
+<text x='64.00' y='396.67' font-family='Helvetica,Arial,sans-serif' font-size='11' fill='#555' text-anchor='end'>1.5%</text>
+<line x1='70.00' y1='360.82' x2='1570.00' y2='360.82' stroke='#eee' stroke-width='0.6'/>
+<text x='64.00' y='364.82' font-family='Helvetica,Arial,sans-serif' font-size='11' fill='#555' text-anchor='end'>2.0%</text>
+<line x1='70.00' y1='328.97' x2='1570.00' y2='328.97' stroke='#eee' stroke-width='0.6'/>
+<text x='64.00' y='332.97' font-family='Helvetica,Arial,sans-serif' font-size='11' fill='#555' text-anchor='end'>2.5%</text>
+<line x1='70.00' y1='297.12' x2='1570.00' y2='297.12' stroke='#eee' stroke-width='0.6'/>
+<text x='64.00' y='301.12' font-family='Helvetica,Arial,sans-serif' font-size='11' fill='#555' text-anchor='end'>3.0%</text>
+<line x1='70.00' y1='265.27' x2='1570.00' y2='265.27' stroke='#eee' stroke-width='0.6'/>
+<text x='64.00' y='269.27' font-family='Helvetica,Arial,sans-serif' font-size='11' fill='#555' text-anchor='end'>3.5%</text>
+<line x1='70.00' y1='233.42' x2='1570.00' y2='233.42' stroke='#eee' stroke-width='0.6'/>
+<text x='64.00' y='237.42' font-family='Helvetica,Arial,sans-serif' font-size='11' fill='#555' text-anchor='end'>4.0%</text>
+<line x1='70.00' y1='201.57' x2='1570.00' y2='201.57' stroke='#eee' stroke-width='0.6'/>
+<text x='64.00' y='205.57' font-family='Helvetica,Arial,sans-serif' font-size='11' fill='#555' text-anchor='end'>4.5%</text>
+<line x1='70.00' y1='169.72' x2='1570.00' y2='169.72' stroke='#eee' stroke-width='0.6'/>
+<text x='64.00' y='173.72' font-family='Helvetica,Arial,sans-serif' font-size='11' fill='#555' text-anchor='end'>5.0%</text>
+<line x1='70.00' y1='137.87' x2='1570.00' y2='137.87' stroke='#eee' stroke-width='0.6'/>
+<text x='64.00' y='141.87' font-family='Helvetica,Arial,sans-serif' font-size='11' fill='#555' text-anchor='end'>5.5%</text>
+<line x1='70.00' y1='106.02' x2='1570.00' y2='106.02' stroke='#eee' stroke-width='0.6'/>
+<text x='64.00' y='110.02' font-family='Helvetica,Arial,sans-serif' font-size='11' fill='#555' text-anchor='end'>6.0%</text>
+<rect x='74.39' y='421.46' width='13.90' height='66.76' fill='#3b6fb6' fill-opacity='0.25' stroke='#3b6fb6' stroke-width='1' stroke-dasharray='3,2'/>
+<rect x='88.29' y='453.80' width='13.90' height='34.42' fill='#c0583b' fill-opacity='0.25' stroke='#c0583b' stroke-width='1' stroke-dasharray='3,2'/>
+<rect x='110.98' y='391.71' width='13.90' height='96.52' fill='#3b6fb6' fill-opacity='0.25' stroke='#3b6fb6' stroke-width='1' stroke-dasharray='3,2'/>
+<rect x='124.88' y='380.92' width='13.90' height='107.30' fill='#c0583b' fill-opacity='0.25' stroke='#c0583b' stroke-width='1' stroke-dasharray='3,2'/>
+<rect x='147.56' y='488.22' width='13.90' height='0.79' fill='#3b6fb6' fill-opacity='0.25' stroke='#3b6fb6' stroke-width='1' stroke-dasharray='3,2'/>
+<rect x='161.46' y='488.22' width='13.90' height='45.03' fill='#c0583b' fill-opacity='0.25' stroke='#c0583b' stroke-width='1' stroke-dasharray='3,2'/>
+<rect x='184.15' y='447.48' width='13.90' height='40.74' fill='#3b6fb6'/>
+<rect x='198.05' y='488.22' width='13.90' height='1.33' fill='#c0583b'/>
+<rect x='220.73' y='419.42' width='13.90' height='68.80' fill='#3b6fb6'/>
+<rect x='234.63' y='388.76' width='13.90' height='99.46' fill='#c0583b'/>
+<rect x='257.32' y='277.59' width='13.90' height='210.63' fill='#3b6fb6'/>
+<rect x='271.22' y='354.82' width='13.90' height='133.40' fill='#c0583b'/>
+<rect x='293.90' y='210.41' width='13.90' height='277.81' fill='#3b6fb6'/>
+<rect x='307.80' y='271.46' width='13.90' height='216.76' fill='#c0583b'/>
+<line x1='326.10' y1='90.00' x2='326.10' y2='540.00' stroke='#ddd' stroke-width='0.8'/>
+<text x='344.39' y='560.00' font-family='Helvetica,Arial,sans-serif' font-size='12' fill='#555' text-anchor='middle'>2024</text>
+<rect x='330.49' y='352.88' width='13.90' height='135.34' fill='#3b6fb6'/>
+<rect x='344.39' y='334.01' width='13.90' height='154.21' fill='#c0583b'/>
+<rect x='367.07' y='342.17' width='13.90' height='146.05' fill='#3b6fb6'/>
+<rect x='380.98' y='335.34' width='13.90' height='152.88' fill='#c0583b'/>
+<rect x='403.66' y='207.23' width='13.90' height='280.99' fill='#3b6fb6'/>
+<rect x='417.56' y='126.20' width='13.90' height='362.02' fill='#c0583b'/>
+<rect x='440.24' y='410.83' width='13.90' height='77.39' fill='#3b6fb6'/>
+<rect x='454.15' y='390.48' width='13.90' height='97.74' fill='#c0583b'/>
+<rect x='476.83' y='386.58' width='13.90' height='101.64' fill='#3b6fb6'/>
+<rect x='490.73' y='401.38' width='13.90' height='86.84' fill='#c0583b'/>
+<rect x='513.41' y='371.18' width='13.90' height='117.04' fill='#3b6fb6'/>
+<rect x='527.32' y='385.19' width='13.90' height='103.03' fill='#c0583b'/>
+<rect x='550.00' y='410.24' width='13.90' height='77.98' fill='#3b6fb6'/>
+<rect x='563.90' y='421.44' width='13.90' height='66.79' fill='#c0583b'/>
+<rect x='586.59' y='464.36' width='13.90' height='23.86' fill='#3b6fb6' fill-opacity='0.25' stroke='#3b6fb6' stroke-width='1' stroke-dasharray='3,2'/>
+<rect x='600.49' y='425.17' width='13.90' height='63.05' fill='#c0583b' fill-opacity='0.25' stroke='#c0583b' stroke-width='1' stroke-dasharray='3,2'/>
+<rect x='623.17' y='446.93' width='13.90' height='41.29' fill='#3b6fb6'/>
+<rect x='637.07' y='420.37' width='13.90' height='67.85' fill='#c0583b'/>
+<rect x='659.76' y='443.19' width='13.90' height='45.03' fill='#3b6fb6'/>
+<rect x='673.66' y='422.93' width='13.90' height='65.29' fill='#c0583b'/>
+<rect x='696.34' y='287.32' width='13.90' height='200.91' fill='#3b6fb6'/>
+<rect x='710.24' y='317.74' width='13.90' height='170.48' fill='#c0583b'/>
+<rect x='732.93' y='327.82' width='13.90' height='160.40' fill='#3b6fb6'/>
+<rect x='746.83' y='336.98' width='13.90' height='151.24' fill='#c0583b'/>
+<line x1='765.12' y1='90.00' x2='765.12' y2='540.00' stroke='#ddd' stroke-width='0.8'/>
+<text x='783.41' y='560.00' font-family='Helvetica,Arial,sans-serif' font-size='12' fill='#555' text-anchor='middle'>2025</text>
+<rect x='769.51' y='424.26' width='13.90' height='63.96' fill='#3b6fb6'/>
+<rect x='783.41' y='398.34' width='13.90' height='89.88' fill='#c0583b'/>
+<rect x='806.10' y='458.13' width='13.90' height='30.09' fill='#3b6fb6'/>
+<rect x='820.00' y='435.36' width='13.90' height='52.86' fill='#c0583b'/>
+<rect x='842.68' y='478.31' width='13.90' height='9.91' fill='#3b6fb6'/>
+<rect x='856.59' y='471.02' width='13.90' height='17.20' fill='#c0583b'/>
+<rect x='879.27' y='488.22' width='13.90' height='15.35' fill='#3b6fb6'/>
+<rect x='893.17' y='460.57' width='13.90' height='27.65' fill='#c0583b'/>
+<rect x='915.85' y='422.37' width='13.90' height='65.85' fill='#3b6fb6'/>
+<rect x='929.76' y='400.52' width='13.90' height='87.70' fill='#c0583b'/>
+<rect x='952.44' y='449.92' width='13.90' height='38.30' fill='#3b6fb6'/>
+<rect x='966.34' y='443.83' width='13.90' height='44.39' fill='#c0583b'/>
+<rect x='989.02' y='370.44' width='13.90' height='117.78' fill='#3b6fb6'/>
+<rect x='1002.93' y='383.06' width='13.90' height='105.16' fill='#c0583b'/>
+<rect x='1025.61' y='425.94' width='13.90' height='62.28' fill='#3b6fb6'/>
+<rect x='1039.51' y='426.74' width='13.90' height='61.48' fill='#c0583b'/>
+<rect x='1062.20' y='446.96' width='13.90' height='41.26' fill='#3b6fb6'/>
+<rect x='1076.10' y='435.42' width='13.90' height='52.80' fill='#c0583b'/>
+<rect x='1098.78' y='449.05' width='13.90' height='39.17' fill='#3b6fb6'/>
+<rect x='1112.68' y='430.59' width='13.90' height='57.63' fill='#c0583b'/>
+<rect x='1135.37' y='446.01' width='13.90' height='42.22' fill='#3b6fb6'/>
+<rect x='1149.27' y='441.33' width='13.90' height='46.89' fill='#c0583b'/>
+<rect x='1171.95' y='440.02' width='13.90' height='48.20' fill='#3b6fb6'/>
+<rect x='1185.85' y='454.47' width='13.90' height='33.75' fill='#c0583b'/>
+<line x1='1204.15' y1='90.00' x2='1204.15' y2='540.00' stroke='#ddd' stroke-width='0.8'/>
+<text x='1222.44' y='560.00' font-family='Helvetica,Arial,sans-serif' font-size='12' fill='#555' text-anchor='middle'>2026</text>
+<rect x='1208.54' y='446.99' width='13.90' height='41.23' fill='#3b6fb6'/>
+<rect x='1222.44' y='448.75' width='13.90' height='39.47' fill='#c0583b'/>
+<rect x='1245.12' y='477.35' width='13.90' height='10.87' fill='#3b6fb6'/>
+<rect x='1259.02' y='476.97' width='13.90' height='11.25' fill='#c0583b'/>
+<rect x='1281.71' y='474.35' width='13.90' height='13.87' fill='#3b6fb6'/>
+<rect x='1295.61' y='483.41' width='13.90' height='4.81' fill='#c0583b'/>
+<rect x='1318.29' y='488.22' width='13.90' height='2.06' fill='#3b6fb6'/>
+<rect x='1332.20' y='488.22' width='13.90' height='4.46' fill='#c0583b'/>
+<rect x='1354.88' y='447.04' width='13.90' height='41.18' fill='#3b6fb6'/>
+<rect x='1368.78' y='471.40' width='13.90' height='16.82' fill='#c0583b'/>
+<rect x='1391.46' y='470.82' width='13.90' height='17.40' fill='#3b6fb6'/>
+<rect x='1405.37' y='457.48' width='13.90' height='30.74' fill='#c0583b'/>
+<rect x='1428.05' y='436.08' width='13.90' height='52.14' fill='#3b6fb6'/>
+<rect x='1441.95' y='437.00' width='13.90' height='51.22' fill='#c0583b'/>
+<rect x='1464.63' y='441.53' width='13.90' height='46.69' fill='#3b6fb6'/>
+<rect x='1478.54' y='443.11' width='13.90' height='45.11' fill='#c0583b'/>
+<rect x='1501.22' y='434.86' width='13.90' height='53.36' fill='#3b6fb6'/>
+<rect x='1515.12' y='442.23' width='13.90' height='45.99' fill='#c0583b'/>
+<rect x='1537.80' y='451.37' width='13.90' height='36.85' fill='#3b6fb6'/>
+<rect x='1551.71' y='440.65' width='13.90' height='47.57' fill='#c0583b'/>
+<rect x='1380' y='70' width='12' height='12' fill='#3b6fb6'/><text x='1398' y='81' font-family='Helvetica,Arial,sans-serif' font-size='12' fill='#333'>ETH</text>
+<rect x='1450' y='70' width='12' height='12' fill='#c0583b'/><text x='1468' y='81' font-family='Helvetica,Arial,sans-serif' font-size='12' fill='#333'>BTC</text>
+</svg>

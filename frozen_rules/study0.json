@@ -1,0 +1,118 @@
+{
+  "study": "Study 0 — OpenBasis descriptive foundation",
+  "design": {
+    "file": "DESIGN.md",
+    "sha256": "b4f911187a17593f06e173a014cc923f3ee1708ddb393eaa2338661189eb9c06",
+    "seal_commit": "9d3ed18144d4cebc2b3c511ad596f3496e833be2",
+    "seal_utc": "2026-11-01T20:47:51Z"
+  },
+  "window": {
+    "bucket_label": "UTC hour start",
+    "first_bucket_utc": "2023-06-23T00:00Z",
+    "last_bucket_utc": "2026-10-31T23:00Z",
+    "first_bucket_ms": 1687478400000,
+    "last_bucket_ms": 1793487600000,
+    "expected_buckets": 29448,
+    "fill_policy": "none; sole exception is the Amendment A2 bounded reserve-snapshot rule below"
+  },
+  "calendar_completeness": "a month/year is COMPLETE for a series only if every hour of the period is inside the window, inside the series scope, and observed; otherwise INCOMPLETE with the observed subtotal shown separately; all periods appear",
+  "series": {
+    "hyperliquid_funding": {
+      "assets": ["ETH", "BTC"],
+      "endpoint": "POST https://api.hyperliquid.xyz/info type=fundingHistory",
+      "raw_root": {"ETH": "data/raw/hyperliquid", "BTC": "data/raw/hyperliquid"},
+      "raw_root_sha256_aggregate": "9c9e4067f92f424090e5fc60e16a8373d0eeb4b4ecbc9b303ec185e886c6712d",
+      "unit": "hourly applied funding rate, fraction of notional per hour",
+      "unit_check": "modal exact fundingRate string 0.0000125 equals the 0.00125%/h venue baseline; settlements hourly",
+      "sign": "positive = longs pay shorts = a short receives (raw sign unchanged)",
+      "ingestion": "fundingRate and premium parsed as exact decimal strings (decimal.Decimal)",
+      "settlement_to_bucket": "bucket_ms = floor_hour(payment_time_ms) - 3600000 (compensated-interval start; director decision D3); payment timestamp retained",
+      "duplicates": "identical (same settlement hour, same fundingRate+premium) deduplicated and counted; conflicting duplicates are a data defect: stop and escalate"
+    },
+    "coinbase_spot": {
+      "products": ["ETH-USD", "BTC-USD"],
+      "endpoint": "GET https://api.exchange.coinbase.com/products/{product}/candles?granularity=3600",
+      "raw_root_sha256_aggregate": "ec11be4b89092ead2d14f80d7a5fc618cc7b50903a700227bb1905ad1c25e6ea",
+      "semantics": "candle [time, low, high, open, close, volume]; time = bucket start, epoch seconds UTC; no-trade buckets are missing, never filled",
+      "field_used": "close only, as reference mark; not execution proof",
+      "duplicates": "identical full-row duplicates deduplicated and counted; conflicting duplicates are a data defect: stop and escalate"
+    },
+    "aave_v3_arbitrum_usdc_reserve": {
+      "source_class": "aggregator evidence (DefiLlama), director-approved exception A1/D1",
+      "segments": {
+        "native_usdc": {
+          "pool_id": "d9fa8e14-0447-4207-9ae8-7810199dfa1f",
+          "chart_file": "data/raw/defillama/chart_native_usdc.json",
+          "underlying_token": "0xaf88d065e77c8cC2239327C5EDb3A432268e5831",
+          "segment_scope_first_bucket_utc": "2023-06-29T00:00Z"
+        },
+        "usdc_e": {
+          "pool_id": "7aab7b0f-01c1-4467-bc0d-77826d870f19",
+          "chart_file": "data/raw/defillama/chart_usdc_e.json",
+          "underlying_token": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8",
+          "segment_scope_first_bucket_utc": "2023-06-23T00:00Z"
+        }
+      },
+      "segment_rule": "native USDC and USDC.e are separate dated segments; no stitching, no cutover construction, no combined series",
+      "field_used": "apyBase only (base supply rate); apyReward excluded and the exclusion disclosed; generic apy field not used",
+      "field_convention": "apyBase = (liquidityRate / 1e27) * 100 = Aave on-chain annualized linear-accrual rate in percent (APR), per pinned adapter evidence spanning the window",
+      "hourly_accrual": "(apyBase / 100) / 8760 per derived hour, simple accrual",
+      "a2_bounded_snapshot_rule": {
+        "applies_from": "first hour boundary strictly after the snapshot timestamp",
+        "max_validity_buckets": 24,
+        "max_validity_basis": "documented delivered cadence of one snapshot per calendar date (controller_yield.js: max(timestamp) per date from an hourly-written table)",
+        "truncation": "never at or after the next snapshot's first applicable hour boundary",
+        "beyond_bound": "gap; missing snapshot days remain gaps; no indefinite carry",
+        "label": "derived hourly reserve rates are modeled approximations, not observed hourly returns"
+      }
+    }
+  },
+  "formulas": {
+    "funding_sum": "S = sum of hourly funding over observed window buckets, per $1 constant quote notional, exact decimal arithmetic",
+    "arithmetic_annualized_rate": "R = 8760 * S / observed_hours; a rate description, not compounded APY, not an investable equity curve",
+    "distribution_stats": "mean, median, p5, p95, min, max on float64 conversions; mean via exact float summation (fsum)",
+    "quantile_method": "linear interpolation (type 7; the numpy default): h=(n-1)p, x[floor(h)] + (h-floor(h))*(x[floor(h)+1]-x[floor(h)])",
+    "sign_shares": "shares of hours with f>0, f=0 (exact decimal zero), f<0 over observed hours",
+    "negative_run": "maximal consecutive observed grid buckets with f<0 strictly; zero, positive, or missing hours break a run; COMPLETED iff immediately preceded and followed, inside the window, by an observed bucket with f>=0; runs adjacent to the window boundary or a missing bucket are CENSORED, listed separately, excluded from completed-run aggregates",
+    "spot_returns": "r_k(t) = P(t)/P(t-k) - 1 for k in {1,24}, defined only when all k+1 hourly closes in [t-k,t] are observed; p1/p99 (type 7) and single worst up/down with UTC timestamps",
+    "reserve_accrual": "per segment: hourly modeled accrual a(b)=(apyBase/100)/8760 on A2-derived hours; sum and arithmetic annualization 8760*mean on disclosed derived coverage",
+    "units": "1 bp = 1e-4; no APR/APY conversion other than the sealed reserve conversion; unlike return conventions never summed"
+  },
+  "arithmetic": {
+    "sums_and_totals": "decimal.Decimal, default context (precision 28, ROUND_HALF_EVEN)",
+    "distribution_statistics": "float64 conversions of the exact values",
+    "float_output_format": "fixed decimal formats: funding rates %.12f, returns %.8f, bps %.2f"
+  },
+  "cost_worksheet": {
+    "status": "modeled inputs, not empirical findings or current executable quotes",
+    "perp_fee_bps_oneway": 4.5,
+    "spot_fee_plus_impact_bps_oneway": 10,
+    "roundtrip_bps": 29,
+    "annualized_drag": "29*365/D bps for D in {30,90,365}",
+    "sensitivity": "exactly one: all modeled costs x2",
+    "gas_illustration_usd_per_leg": 0.5,
+    "unpriced_register": ["perp market impact", "gas beyond the illustration", "transfers", "top-ups", "settlement", "borrow/custody", "opportunity cost"],
+    "prohibited": ["trade-size grid", "optimal holding period", "total-cost certification", "net-APY claim"]
+  },
+  "capital_bridge": "symbolic only: funding=(N/C)*sum(funding); reserve=(R/C)*sum(reserve accrual); cost=cost dollars/C; no N/C or R/C selected",
+  "analyses_complete_and_exclusive": ["A1 funding description", "A2 negative runs", "A3 spot risk descriptors", "A4 cost worksheet", "A5 reserve worksheet + symbolic bridge", "A6 V1 consistency matrix (internal)"],
+  "figures": ["F1 combined ETH/BTC hourly funding time series", "F2 calendar-month funding totals, completeness-labeled"],
+  "environment": {
+    "host": "macOS 26.6.2 (build 25G83), Darwin arm64",
+    "interpreter": "/opt/homebrew/bin/python3.13",
+    "python": "3.13.15",
+    "dependencies": "Python standard library only",
+    "execution": "all result computation and reproduction run host-side by the mechanical coordinator (DESIGN section 13, Amendment A4)"
+  },
+  "input_registry": {
+    "manifest": {"file": "data/MANIFEST.json", "sha256": "bea49ac4a455b9742918adb62d7dd5dfe7538d05c31a56c3b9b30793b0ba459b", "n_files": 349},
+    "coverage": {"file": "data/COVERAGE.json", "sha256": "61311b002808ae175c18899e1f14076cd7b59a87b9a0544eaf466c1088ade230"},
+    "v1_consistency_copy": {"file": "data/source_consistency/V1_DESIGN.md", "sha256": "8e5010524e7b34c0c89bfe758067ef92db6ee52db682f23eae87ef09bd657e32"},
+    "raw_root_aggregates": {
+      "data/raw/coinbase": "ec11be4b89092ead2d14f80d7a5fc618cc7b50903a700227bb1905ad1c25e6ea",
+      "data/raw/defillama": "e56390595777e4b827114c8b766f893f2fc71852c663e4cc029420d12f0fb260",
+      "data/raw/defillama_adapter_evidence": "adfff454d8e106ae5538f3d8bb41382f1b412cd04d3eea1b95ee22f9e7cdaa77",
+      "data/raw/hyperliquid": "9c9e4067f92f424090e5fc60e16a8373d0eeb4b4ecbc9b303ec185e886c6712d"
+    }
+  }
+}
